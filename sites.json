@@ -4,34 +4,39 @@
     "year": 1998,
     "description": "The official homepage of BOMB, a French demoscene group: news, member memories, incoming projects, demo downloads, pixel art, links and credits.",
     "url": "https://bomb98.sauthier.family",
-    "repo": "https://github.com/ChanOJ/Bomb98"
+    "repo": "https://github.com/ChanOJ/Bomb98",
+    "image": "shots/bomb98.jpg"
   },
   {
     "title": "HotDIR (1997 version)",
     "year": 1997,
     "description": "The home page of HotDIR, a DOS directory lister that recognises file types, Mac and Atari floppies and more, with release history and downloads.",
     "url": "https://hotdir97.sauthier.family",
-    "repo": "https://github.com/ChanOJ/HotDIR97"
+    "repo": "https://github.com/ChanOJ/HotDIR97",
+    "image": "shots/hotdir97.jpg"
   },
   {
     "title": "Made (2000 version)",
     "year": 2000,
     "description": "A personal graphics site: digital art, a gallery of pictures in period formats with downloadable packs, news, an about page and links.",
     "url": "https://made2k.sauthier.family",
-    "repo": "https://github.com/ChanOJ/Made2k"
+    "repo": "https://github.com/ChanOJ/Made2k",
+    "image": "shots/made2k.jpg"
   },
   {
     "title": "Orange Juice (1997 version)",
     "year": 1997,
     "description": "A French-language online magazine about the demoscene: demoparty reports and calendar, what a demo is, groups and handles, artwork and links.",
     "url": "https://orangejuice97.sauthier.family",
-    "repo": "https://github.com/ChanOJ/OrangeJuice97"
+    "repo": "https://github.com/ChanOJ/OrangeJuice97",
+    "image": "shots/orangejuice97.jpg"
   },
   {
     "title": "Orange Juice (1998 version)",
     "year": 1998,
     "description": "The French-language demoscene magazine, one year on: news in English and French, demoparty reports and calendar, handles and groups, birthdays, demos, interviews and links.",
     "url": "https://orangejuice98.sauthier.family",
-    "repo": "https://github.com/ChanOJ/OrangeJuice98"
+    "repo": "https://github.com/ChanOJ/OrangeJuice98",
+    "image": "shots/orangejuice98.jpg"
   }
 ]
