@@ -1,10 +1,10 @@
 [
   {
-    "title": "Orange Juice (1997 version)",
+    "title": "HotDIR (1997 version)",
     "year": 1997,
-    "description": "A French-language online magazine about the demoscene: demoparty reports and calendar, what a demo is, groups and handles, artwork and links.",
-    "url": "https://orangejuice97.sauthier.family",
-    "repo": "https://github.com/ChanOJ/OrangeJuice97"
+    "description": "The home page of HotDIR, a DOS directory lister that recognises file types, Mac and Atari floppies and more, with release history and downloads.",
+    "url": "https://hotdir97.sauthier.family",
+    "repo": "https://github.com/ChanOJ/HotDIR97"
   },
   {
     "title": "Made (2000 version)",
@@ -14,10 +14,17 @@
     "repo": "https://github.com/ChanOJ/Made2k"
   },
   {
-    "title": "HotDIR (1997 version)",
+    "title": "Orange Juice (1997 version)",
     "year": 1997,
-    "description": "The home page of HotDIR, a DOS directory lister that recognises file types, Mac and Atari floppies and more, with release history and downloads.",
-    "url": "https://hotdir97.sauthier.family",
-    "repo": "https://github.com/ChanOJ/HotDIR97"
+    "description": "A French-language online magazine about the demoscene: demoparty reports and calendar, what a demo is, groups and handles, artwork and links.",
+    "url": "https://orangejuice97.sauthier.family",
+    "repo": "https://github.com/ChanOJ/OrangeJuice97"
+  },
+  {
+    "title": "Orange Juice (1998 version)",
+    "year": 1998,
+    "description": "The French-language demoscene magazine, one year on: news in English and French, demoparty reports and calendar, handles and groups, birthdays, demos, interviews and links.",
+    "url": "https://orangejuice98.sauthier.family",
+    "repo": "https://github.com/ChanOJ/OrangeJuice98"
   }
 ]
