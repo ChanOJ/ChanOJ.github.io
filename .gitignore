@@ -1,0 +1,14 @@
+.DS_Store
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+tmp/
+dist/
+build/
+.claude/settings.local.json

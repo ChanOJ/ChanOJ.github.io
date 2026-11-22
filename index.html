@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Historical sites</title>
+<meta name="description" content="Archive of old websites, kept online for history.">
+<style>
+  :root { --bg:#fffaf3; --fg:#1d1b18; --muted:#6b645b; --card:#fff; --line:#e6dccd; --accent:#c25a00; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#17140f; --fg:#f1ebe2; --muted:#a39a8d; --card:#211d16; --line:#383026; --accent:#ff9a3c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.5 system-ui, sans-serif; }
+  main { max-width:44rem; margin:0 auto; padding:3rem 1rem; }
+  h1 { margin:0 0 .25rem; font-size:2rem; }
+  .lead { color:var(--muted); margin:0 0 2rem; }
+  ul { list-style:none; margin:0; padding:0; display:grid; gap:1rem; }
+  li { background:var(--card); border:1px solid var(--line); border-radius:.75rem; padding:1.25rem; }
+  h2 { margin:0; font-size:1.25rem; }
+  h2 a { color:var(--accent); text-decoration:none; }
+  h2 a:hover, h2 a:focus-visible { text-decoration:underline; }
+  p { margin:.5rem 0 0; }
+  .meta { color:var(--muted); font-size:.9rem; }
+  .meta a { color:inherit; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Historical sites</h1>
+  <p class="lead">Old websites, kept online for history and no longer developed.</p>
+  <ul id="sites"><noscript><li>Enable JavaScript to see the list, or browse <a href="sites.json">sites.json</a>.</li></noscript></ul>
+</main>
+<script>
+fetch("sites.json").then(r => r.json()).then(sites => {
+  const list = document.getElementById("sites");
+  list.textContent = "";
+  for (const s of sites) {
+    const li = document.createElement("li");
+    const h = document.createElement("h2");
+    const a = Object.assign(document.createElement("a"), { href: s.url, textContent: s.title });
+    h.append(a);
+    const p = Object.assign(document.createElement("p"), { textContent: s.description });
+    const m = document.createElement("p");
+    m.className = "meta";
+    const host = new URL(s.url).host;
+    m.append(host + " · ", Object.assign(document.createElement("a"), { href: s.repo, textContent: "Source on GitHub" }));
+    li.append(h, p, m);
+    list.append(li);
+  }
+}).catch(() => {
+  document.getElementById("sites").textContent = "Could not load the list.";
+});
+</script>
+</body>
+</html>
