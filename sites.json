@@ -3,21 +3,21 @@
     "title": "Orange Juice (1997 version)",
     "year": 1997,
     "description": "A French-language online magazine about the demoscene: demoparty reports and calendar, what a demo is, groups and handles, artwork and links.",
-    "url": "https://ojuice.sauthier.family",
+    "url": "https://orangejuice97.sauthier.family",
     "repo": "https://github.com/ChanOJ/OrangeJuice97"
   },
   {
     "title": "Made (2000 version)",
     "year": 2000,
     "description": "A personal graphics site: digital art, a gallery of pictures in period formats with downloadable packs, news, an about page and links.",
-    "url": "https://made.sauthier.family",
+    "url": "https://made2k.sauthier.family",
     "repo": "https://github.com/ChanOJ/Made2k"
   },
   {
     "title": "HotDIR (1997 version)",
     "year": 1997,
     "description": "The home page of HotDIR, a DOS directory lister that recognises file types, Mac and Atari floppies and more, with release history and downloads.",
-    "url": "https://chandra.sauthier.family",
+    "url": "https://hotdir97.sauthier.family",
     "repo": "https://github.com/ChanOJ/HotDIR97"
   }
 ]
