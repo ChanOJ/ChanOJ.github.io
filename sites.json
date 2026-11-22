@@ -1,5 +1,12 @@
 [
   {
+    "title": "BOMB (1998 version)",
+    "year": 1998,
+    "description": "The official homepage of BOMB, a French demoscene group: news, member memories, incoming projects, demo downloads, pixel art, links and credits.",
+    "url": "https://bomb98.sauthier.family",
+    "repo": "https://github.com/ChanOJ/Bomb98"
+  },
+  {
     "title": "HotDIR (1997 version)",
     "year": 1997,
     "description": "The home page of HotDIR, a DOS directory lister that recognises file types, Mac and Atari floppies and more, with release history and downloads.",
