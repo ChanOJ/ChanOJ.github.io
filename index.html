@@ -16,7 +16,10 @@
   h1 { margin:0 0 .25rem; font-size:2rem; }
   .lead { color:var(--muted); margin:0 0 2rem; }
   ul { list-style:none; margin:0; padding:0; display:grid; gap:1rem; }
-  li { background:var(--card); border:1px solid var(--line); border-radius:.75rem; padding:1.25rem; }
+  li { background:var(--card); border:1px solid var(--line); border-radius:.75rem; padding:1.25rem; display:flex; gap:1.25rem; align-items:flex-start; }
+  .text { flex:1; min-width:0; }
+  .shot { flex:none; width:10rem; border:1px solid var(--line); border-radius:.4rem; display:block; }
+  @media (max-width:32rem) { li { flex-direction:column-reverse; } .shot { width:100%; } }
   h2 { margin:0; font-size:1.25rem; }
   h2 a { color:var(--accent); text-decoration:none; }
   h2 a:hover, h2 a:focus-visible { text-decoration:underline; }
@@ -45,7 +48,16 @@ fetch("sites.json").then(r => r.json()).then(sites => {
     m.className = "meta";
     const host = new URL(s.url).host;
     m.append(host + " · ", Object.assign(document.createElement("a"), { href: s.repo, textContent: "Source on GitHub" }));
-    li.append(h, p, m);
+    const text = document.createElement("div");
+    text.className = "text";
+    text.append(h, p, m);
+    li.append(text);
+    if (s.image) {
+      const img = Object.assign(document.createElement("img"), { src: s.image, alt: "Screenshot of " + s.title, loading: "lazy", className: "shot" });
+      const link = Object.assign(document.createElement("a"), { href: s.url, tabIndex: -1 });
+      link.append(img);
+      li.append(link);
+    }
     list.append(li);
   }
 }).catch(() => {

@@ -5,8 +5,8 @@ served from bunny.net. The page is `index.html`, rendered from [`sites.json`](si
 
 ## Adding a site
 
-Add an entry to `sites.json` (`title`, `year`, `description`, `url`, `repo`) in a
-pull request, keeping the list in alphabetical order by title. Merging to `main`
+Add an entry to `sites.json` (`title`, `year`, `description`, `url`, `repo`, `image`) in a
+pull request with a screenshot in `shots/` (480 px wide JPEG), keeping the list in alphabetical order by title. Merging to `main`
 publishes it.
 
 ## Preview
