@@ -3,8 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Historical sites</title>
-<meta name="description" content="Archive of old websites, kept online for history.">
+<title>Historical sites: late-1990s websites kept online for history</title>
+<meta name="description" content="Archive of old websites from the late 1990s, kept online for history: demoscene groups and magazines, a DOS tool and a graphics site.">
+<link rel="canonical" href="https://chanoj.github.io/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Historical sites">
+<meta property="og:title" content="Historical sites: late-1990s websites kept online for history">
+<meta property="og:description" content="Archive of old websites from the late 1990s, kept online for history: demoscene groups and magazines, a DOS tool and a graphics site.">
+<meta property="og:url" content="https://chanoj.github.io/">
+<meta property="og:image" content="https://chanoj.github.io/shots/bomb98.jpg">
+<meta name="twitter:card" content="summary_large_image">
 <style>
   :root { --bg:#fffaf3; --fg:#1d1b18; --muted:#6b645b; --card:#fff; --line:#e6dccd; --accent:#c25a00; }
   @media (prefers-color-scheme: dark) {
@@ -18,7 +27,7 @@
   ul { list-style:none; margin:0; padding:0; display:grid; gap:1rem; }
   li { background:var(--card); border:1px solid var(--line); border-radius:.75rem; padding:1.25rem; display:flex; gap:1.25rem; align-items:flex-start; }
   .text { flex:1; min-width:0; }
-  .shot { flex:none; width:10rem; border:1px solid var(--line); border-radius:.4rem; display:block; }
+  .shot { flex:none; width:10rem; height:auto; border:1px solid var(--line); border-radius:.4rem; display:block; }
   @media (max-width:32rem) { li { flex-direction:column-reverse; } .shot { width:100%; } }
   h2 { margin:0; font-size:1.25rem; }
   h2 a { color:var(--accent); text-decoration:none; }
@@ -32,39 +41,65 @@
 <main>
   <h1>Historical sites</h1>
   <p class="lead">Old websites, kept online for history and no longer developed.</p>
-  <ul id="sites"><noscript><li>Enable JavaScript to see the list, or browse <a href="sites.json">sites.json</a>.</li></noscript></ul>
+  <ul>
+    <!-- sites:start -->
+    <li>
+      <div class="text">
+        <h2><a href="https://hotdir97.sauthier.family" target="_blank" rel="noopener noreferrer">HotDIR (1997 version)</a></h2>
+        <p>The home page of HotDIR, a DOS directory lister that recognises file types, Mac and Atari floppies and more, with release history and downloads.</p>
+        <p class="changes">Served as-is from bunny.net; no page was changed.</p>
+        <p class="meta">hotdir97.sauthier.family · <a href="https://github.com/ChanOJ/HotDIR97" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
+      </div>
+      <a href="https://hotdir97.sauthier.family" tabindex="-1" target="_blank" rel="noopener noreferrer">
+        <img class="shot" src="shots/hotdir97.jpg" alt="Screenshot of HotDIR (1997 version)" width="800" height="600" loading="lazy">
+      </a>
+    </li>
+    <li>
+      <div class="text">
+        <h2><a href="https://orangejuice97.sauthier.family" target="_blank" rel="noopener noreferrer">Orange Juice (1997 version)</a></h2>
+        <p>A French-language online magazine about the demoscene: demoparty reports and calendar, what a demo is, groups and handles, artwork and links.</p>
+        <p class="changes">Served as-is from bunny.net; no page was changed.</p>
+        <p class="meta">orangejuice97.sauthier.family · <a href="https://github.com/ChanOJ/OrangeJuice97" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
+      </div>
+      <a href="https://orangejuice97.sauthier.family" tabindex="-1" target="_blank" rel="noopener noreferrer">
+        <img class="shot" src="shots/orangejuice97.jpg" alt="Screenshot of Orange Juice (1997 version)" width="800" height="600" loading="lazy">
+      </a>
+    </li>
+    <li>
+      <div class="text">
+        <h2><a href="https://bomb98.sauthier.family" target="_blank" rel="noopener noreferrer">BOMB (1998 version)</a></h2>
+        <p>The official homepage of BOMB, a French demoscene group: news, member memories, incoming projects, demo downloads, pixel art, links and credits.</p>
+        <p class="changes">Modernised to run today: intro in an iframe instead of a popup, old document.layers scripts rewritten, Java applets run with CheerpJ, SSI include inlined.</p>
+        <p class="meta">bomb98.sauthier.family · <a href="https://github.com/ChanOJ/Bomb98" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
+      </div>
+      <a href="https://bomb98.sauthier.family" tabindex="-1" target="_blank" rel="noopener noreferrer">
+        <img class="shot" src="shots/bomb98.jpg" alt="Screenshot of BOMB (1998 version)" width="800" height="600" loading="lazy">
+      </a>
+    </li>
+    <li>
+      <div class="text">
+        <h2><a href="https://orangejuice98.sauthier.family" target="_blank" rel="noopener noreferrer">Orange Juice (1998 version)</a></h2>
+        <p>The French-language demoscene magazine, one year on: news in English and French, demoparty reports and calendar, handles and groups, birthdays, demos, interviews and links.</p>
+        <p class="changes">Rebuilt from classic ASP into static HTML: forms, counters and admin pages removed, personal data redacted, font fallbacks added, POST blocked and security headers set at the edge.</p>
+        <p class="meta">orangejuice98.sauthier.family · <a href="https://github.com/ChanOJ/OrangeJuice98" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
+      </div>
+      <a href="https://orangejuice98.sauthier.family" tabindex="-1" target="_blank" rel="noopener noreferrer">
+        <img class="shot" src="shots/orangejuice98.jpg" alt="Screenshot of Orange Juice (1998 version)" width="800" height="600" loading="lazy">
+      </a>
+    </li>
+    <li>
+      <div class="text">
+        <h2><a href="https://made99.sauthier.family" target="_blank" rel="noopener noreferrer">Made (1999 version)</a></h2>
+        <p>A personal graphics site: digital art, a gallery of pictures in period formats with downloadable packs, news, an about page and links.</p>
+        <p class="changes">Tweaked to run today: site shown in an iframe instead of a popup, entry page split from the framed page, missing banner removed, windows-1252 charset declared.</p>
+        <p class="meta">made99.sauthier.family · <a href="https://github.com/ChanOJ/Made99" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
+      </div>
+      <a href="https://made99.sauthier.family" tabindex="-1" target="_blank" rel="noopener noreferrer">
+        <img class="shot" src="shots/made99.jpg" alt="Screenshot of Made (1999 version)" width="800" height="600" loading="lazy">
+      </a>
+    </li>
+    <!-- sites:end -->
+  </ul>
 </main>
-<script>
-fetch("sites.json").then(r => r.json()).then(sites => {
-  const list = document.getElementById("sites");
-  list.textContent = "";
-  sites.sort((a, b) => a.year - b.year || a.title.localeCompare(b.title));
-  for (const s of sites) {
-    const li = document.createElement("li");
-    const h = document.createElement("h2");
-    const a = Object.assign(document.createElement("a"), { href: s.url, textContent: s.title, target: "_blank", rel: "noopener noreferrer" });
-    h.append(a);
-    const p = Object.assign(document.createElement("p"), { textContent: s.description });
-    const c = Object.assign(document.createElement("p"), { textContent: s.changes, className: "changes" });
-    const m = document.createElement("p");
-    m.className = "meta";
-    const host = new URL(s.url).host;
-    m.append(host + " · ", Object.assign(document.createElement("a"), { href: s.repo, textContent: "Source on GitHub", target: "_blank", rel: "noopener noreferrer" }));
-    const text = document.createElement("div");
-    text.className = "text";
-    text.append(h, p, c, m);
-    li.append(text);
-    if (s.image) {
-      const img = Object.assign(document.createElement("img"), { src: s.image, alt: "Screenshot of " + s.title, loading: "lazy", className: "shot" });
-      const link = Object.assign(document.createElement("a"), { href: s.url, tabIndex: -1, target: "_blank", rel: "noopener noreferrer" });
-      link.append(img);
-      li.append(link);
-    }
-    list.append(li);
-  }
-}).catch(() => {
-  document.getElementById("sites").textContent = "Could not load the list.";
-});
-</script>
 </body>
 </html>
