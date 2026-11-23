@@ -106,5 +106,14 @@
     "url": "https://ltp3.sauthier.family/home.shtml",
     "repo": "https://github.com/ChanOJ/LTP3",
     "image": "shots/ltp3.jpg"
+  },
+  {
+    "title": "LTP2, the event pages",
+    "date": "1998",
+    "description": "The small website that ran the registrations and the votes of Lucky & Tigrou Party 2, a French demoparty of 1998: registration form, list of attendees, compo entries and vote results.",
+    "changes": "Rebuilt from four classic ASP pages over flat files into static HTML: forms replaced by a read-only notice, attendee list reduced to handles and groups, compo lists and vote results rendered from the files (only test votes survived), every page shown in a 1021x650 iframe, registrations and personal data never published, POST blocked and security headers set at the edge.",
+    "url": "https://ltp2-party.sauthier.family/",
+    "repo": "https://github.com/ChanOJ/LTP2-party",
+    "image": "shots/ltp2-party.jpg"
   }
 ]
