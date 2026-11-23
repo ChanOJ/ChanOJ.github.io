@@ -6,7 +6,7 @@ served from bunny.net. The page is `index.html`, rendered from [`sites.json`](si
 ## Adding a site
 
 Add an entry to `sites.json` (`title`, `year`, `description`, `changes`, `url`, `repo`, `image`) in a
-pull request with a screenshot in `shots/` (480 px wide JPEG), keeping the list in alphabetical order by title. Merging to `main`
+pull request with a screenshot in `shots/` (800 px wide JPEG), keeping the list in alphabetical order by title. Merging to `main`
 publishes it.
 
 `changes` is a one-line summary of what was changed from the original site so that it works
