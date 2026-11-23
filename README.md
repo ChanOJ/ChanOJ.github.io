@@ -13,6 +13,10 @@ publishes it.
 today (or "Served as-is..." if nothing was). Take it from the "Changes from the original site"
 section of the site's own README, and update it when that README changes.
 
+Screenshots are 800×600 (4:3, so they stay sharp on retina screens), taken with an 800×600
+viewport on the live site: the home page, the whole fake popup window for sites that have one
+(Bomb, Made), or the first English page when the site is bilingual (Orange Juice 98).
+
 Links on the page open in a new tab (`target="_blank"`, `rel="noopener noreferrer"`).
 
 ## Preview
