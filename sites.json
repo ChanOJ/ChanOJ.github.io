@@ -54,8 +54,19 @@
     "image": "shots/orangejuice2k.jpg"
   },
   {
+    "title": "LTP4, before the party",
+    "year": 2000,
+    "date": "2000-08-24",
+    "description": "Lucky & Tigrou Party 4, the French demoparty of 25-27 August 2000, as visitors saw its website in the days before: Flash intro and its tune, news, forum, how to come and reserve, car trips, competition rules and machines, sponsors.",
+    "changes": "Recovered from the Wayback Machine (captures of August 2000) and rebuilt from classic ASP and SSI into static HTML: forms replaced by a read-only notice, hit counters removed, personal data redacted, menu style restored, images never archived shown as placeholders, Flash intro and its mod tune played with Ruffle and libopenmpt, POST blocked and security headers set at the edge.",
+    "url": "https://ltp4.sauthier.family/",
+    "repo": "https://github.com/ChanOJ/LTP4",
+    "image": "shots/ltp4.jpg"
+  },
+  {
     "title": "LTP4, after the party",
     "year": 2000,
+    "date": "2000-08-31",
     "description": "Lucky & Tigrou Party 4, the French demoparty of 25-27 August 2000, right after the event: final results of every compo, words from the organizers and from the attenders, the traditional financial balance and Skal's fast code compo.",
     "changes": "Rebuilt from classic ASP and SSI into static HTML with the original URLs kept: attenders' forum rendered read-only, hit counters and FTP credentials removed, e-mail domains redacted, a 2026 post-scriptum added to the financial balance, POST blocked and security headers set at the edge.",
     "url": "https://ltp4-postparty.sauthier.family/index2.html",
