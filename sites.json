@@ -52,5 +52,23 @@
     "url": "https://orangejuice2k.sauthier.family",
     "repo": "https://github.com/ChanOJ/OrangeJuice2k",
     "image": "shots/orangejuice2k.jpg"
+  },
+  {
+    "title": "LTP4, after the party",
+    "year": 2000,
+    "description": "Lucky & Tigrou Party 4, the French demoparty of 25-27 August 2000, right after the event: final results of every compo, words from the organizers and from the attenders, the traditional financial balance and Skal's fast code compo.",
+    "changes": "Rebuilt from classic ASP and SSI into static HTML with the original URLs kept: attenders' forum rendered read-only, hit counters and FTP credentials removed, e-mail domains redacted, a 2026 post-scriptum added to the financial balance, POST blocked and security headers set at the edge.",
+    "url": "https://ltp4-postparty.sauthier.family/index2.html",
+    "repo": "https://github.com/ChanOJ/LTP4-postparty",
+    "image": "shots/ltp4-postparty.jpg"
+  },
+  {
+    "title": "LTP5 delayed",
+    "year": 2001,
+    "description": "The home page of the LTP website in 2001: LTP5 delayed, a wall of LTP4 productions and a long tribute to LTP memories written by sceners.",
+    "changes": "Served as it was, except the dead \"LTP party\" link, which now opens the LTP4 results, sans-serif font fallbacks, POST blocked and security headers set at the edge.",
+    "url": "https://ltp4-postparty.sauthier.family/",
+    "repo": "https://github.com/ChanOJ/LTP4-postparty",
+    "image": "shots/ltp5-delayed.jpg"
   }
 ]
