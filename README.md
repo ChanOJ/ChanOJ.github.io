@@ -6,8 +6,8 @@ served from bunny.net. The page is `index.html`, rendered from [`sites.json`](si
 ## Adding a site
 
 Add an entry to `sites.json` (`title`, `year`, `description`, `changes`, `url`, `repo`, `image`) in a
-pull request with a screenshot in `shots/` (800 px wide JPEG), keeping the list in alphabetical order by title. Merging to `main`
-publishes it.
+pull request with a screenshot in `shots/` (800 px wide JPEG). Merging to `main`
+publishes it. The page sorts the list by `year`, then by `title`, whatever the order in `sites.json`.
 
 `changes` is a one-line summary of what was changed from the original site so that it works
 today (or "Served as-is..." if nothing was). Take it from the "Changes from the original site"
