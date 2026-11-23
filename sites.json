@@ -88,5 +88,14 @@
     "url": "https://ltp3-party.sauthier.family/",
     "repo": "https://github.com/ChanOJ/LTP3-party",
     "image": "shots/ltp3-party.jpg"
+  },
+  {
+    "title": "LTP3, Make A Wish !",
+    "date": "1999-05-30",
+    "description": "Lucky & Tigrou Party 3, the French demoparty of 27-29 August 1999, as its website stood in the end: news, general information, competitions, final results and financial balance, how to come, registration, contact and the questions and answers forum.",
+    "changes": "Rebuilt from classic ASP and SSI into static HTML with the original URLs kept: forum rendered read-only, car trips and registration lists replaced by an archived notice, phone number and e-mail addresses redacted, POST blocked and security headers set at the edge.",
+    "url": "https://ltp3.sauthier.family/home.shtml",
+    "repo": "https://github.com/ChanOJ/LTP3",
+    "image": "shots/ltp3.jpg"
   }
 ]
