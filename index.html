@@ -38,6 +38,7 @@
 fetch("sites.json").then(r => r.json()).then(sites => {
   const list = document.getElementById("sites");
   list.textContent = "";
+  sites.sort((a, b) => a.year - b.year || a.title.localeCompare(b.title));
   for (const s of sites) {
     const li = document.createElement("li");
     const h = document.createElement("h2");
