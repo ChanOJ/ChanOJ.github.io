@@ -1,7 +1,7 @@
 [
   {
     "title": "BOMB (1998 version)",
-    "year": 1998,
+    "date": "1998",
     "description": "The official homepage of BOMB, a French demoscene group: news, member memories, incoming projects, demo downloads, pixel art, links and credits.",
     "changes": "Modernised to run today: intro in an iframe instead of a popup, old document.layers scripts rewritten, Java applets run with CheerpJ, SSI include inlined.",
     "url": "https://bomb98.sauthier.family",
@@ -10,7 +10,7 @@
   },
   {
     "title": "HotDIR (1997 version)",
-    "year": 1997,
+    "date": "1997",
     "description": "The home page of HotDIR, a DOS directory lister that recognises file types, Mac and Atari floppies and more, with release history and downloads.",
     "changes": "Served as-is from bunny.net; no page was changed.",
     "url": "https://hotdir97.sauthier.family",
@@ -19,7 +19,7 @@
   },
   {
     "title": "Made (1999 version)",
-    "year": 1999,
+    "date": "1999",
     "description": "A personal graphics site: digital art, a gallery of pictures in period formats with downloadable packs, news, an about page and links.",
     "changes": "Tweaked to run today: site shown in an iframe instead of a popup, entry page split from the framed page, missing banner removed, windows-1252 charset declared.",
     "url": "https://made99.sauthier.family",
@@ -28,7 +28,7 @@
   },
   {
     "title": "Orange Juice (1997 version)",
-    "year": 1997,
+    "date": "1997",
     "description": "A French-language online magazine about the demoscene: demoparty reports and calendar, what a demo is, groups and handles, artwork and links.",
     "changes": "Served as-is from bunny.net; no page was changed.",
     "url": "https://orangejuice97.sauthier.family",
@@ -37,7 +37,7 @@
   },
   {
     "title": "Orange Juice (1998 version)",
-    "year": 1998,
+    "date": "1998-05",
     "description": "The French-language demoscene magazine, one year on: news in English and French, demoparty reports and calendar, handles and groups, birthdays, demos, interviews and links.",
     "changes": "Rebuilt from classic ASP into static HTML: forms, counters and admin pages removed, personal data redacted, font fallbacks added, POST blocked and security headers set at the edge.",
     "url": "https://orangejuice98.sauthier.family",
@@ -45,17 +45,16 @@
     "image": "shots/orangejuice98.jpg"
   },
   {
-    "title": "Orange Juice (2000 version)",
-    "year": 2000,
+    "title": "Orange Juice (1999 version)",
+    "date": "1999-09",
     "description": "The French-language demoscene magazine in its database era: news and articles, demoparty calendar, groups and people sheets, interviews, picture library, charts, oneliner and 13 switchable skins.",
     "changes": "Rebuilt from classic ASP and SQL Server into static HTML: forms, votes, logins and admin removed, search rewritten client-side, old ASP links redirected at the edge, e-mail domains and birth years redacted, POST blocked and security headers set at the edge.",
-    "url": "https://orangejuice2k.sauthier.family",
-    "repo": "https://github.com/ChanOJ/OrangeJuice2k",
-    "image": "shots/orangejuice2k.jpg"
+    "url": "https://orangejuice99.sauthier.family",
+    "repo": "https://github.com/ChanOJ/OrangeJuice99",
+    "image": "shots/orangejuice99.jpg"
   },
   {
     "title": "LTP4, before the party",
-    "year": 2000,
     "date": "2000-08-24",
     "description": "Lucky & Tigrou Party 4, the French demoparty of 25-27 August 2000, as visitors saw its website in the days before: Flash intro and its tune, news, forum, how to come and reserve, car trips, competition rules and machines, sponsors.",
     "changes": "Recovered from the Wayback Machine (captures of August 2000) and rebuilt from classic ASP and SSI into static HTML: forms replaced by a read-only notice, hit counters removed, personal data redacted, menu style restored, images never archived shown as placeholders, Flash intro and its mod tune played with Ruffle and libopenmpt, POST blocked and security headers set at the edge.",
@@ -65,7 +64,6 @@
   },
   {
     "title": "LTP4, after the party",
-    "year": 2000,
     "date": "2000-08-31",
     "description": "Lucky & Tigrou Party 4, the French demoparty of 25-27 August 2000, right after the event: final results of every compo, words from the organizers and from the attenders, the traditional financial balance and Skal's fast code compo.",
     "changes": "Rebuilt from classic ASP and SSI into static HTML with the original URLs kept: attenders' forum rendered read-only, hit counters and FTP credentials removed, e-mail domains redacted, a 2026 post-scriptum added to the financial balance, POST blocked and security headers set at the edge.",
@@ -75,7 +73,7 @@
   },
   {
     "title": "LTP5 delayed",
-    "year": 2001,
+    "date": "2001",
     "description": "The home page of the LTP website in 2001: LTP5 delayed, a wall of LTP4 productions and a long tribute to LTP memories written by sceners.",
     "changes": "Served as it was, except the dead \"LTP party\" link, which now opens the LTP4 results, sans-serif font fallbacks, POST blocked and security headers set at the edge.",
     "url": "https://ltp4-postparty.sauthier.family/",

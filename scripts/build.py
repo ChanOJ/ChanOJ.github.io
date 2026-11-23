@@ -13,6 +13,7 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
 START, END = "<!-- sites:start -->", "<!-- sites:end -->"
+DATE = re.compile(r"\d{4}(-\d{2}(-\d{2})?)?")
 LINK = 'target="_blank" rel="noopener noreferrer"'
 
 
@@ -40,8 +41,12 @@ def card(s):
 
 def render():
     sites = json.loads((ROOT / "sites.json").read_text(encoding="utf-8"))
-    # Optional "date" (YYYY-MM-DD) orders entries of the same year; undated ones come first.
-    sites.sort(key=lambda s: (s["year"], s.get("date", ""), s["title"].casefold()))
+    for s in sites:
+        if not DATE.fullmatch(s.get("date", "")):
+            sys.exit(f'{s.get("title")}: "date" must be YYYY, YYYY-MM or YYYY-MM-DD')
+    # "date" strings sort chronologically; a less precise date comes before a more precise one
+    # of the same period (1999 before 1999-09).
+    sites.sort(key=lambda s: (s["date"], s["title"].casefold()))
     page = (ROOT / "index.html").read_text(encoding="utf-8")
     body = "\n".join(card(s) for s in sites)
     new, n = re.subn(

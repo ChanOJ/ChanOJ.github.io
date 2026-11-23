@@ -5,13 +5,17 @@ served from bunny.net. The page is `index.html`, rendered from [`sites.json`](si
 
 ## Adding a site
 
-Add an entry to `sites.json` (`title`, `year`, `description`, `changes`, `url`, `repo`, `image`) in a
+Add an entry to `sites.json` (`title`, `date`, `description`, `changes`, `url`, `repo`, `image`) in a
 pull request with a screenshot in `shots/` (800 px wide JPEG), then run
 `python3 scripts/build.py`: it renders the list into `index.html` as static HTML (no JavaScript,
-so search engines and link previews see it), sorted by `year` then `title`, whatever the order in
-`sites.json`. Entries of the same year can carry an optional `date` (`YYYY-MM-DD`, the date of the
-state of the site they show) to be listed in that order (undated entries of the year come first). The *Check: index.html* workflow fails if `index.html` is out of date. Merging to `main`
-publishes it.
+so search engines and link previews see it), sorted by `date` then `title`, whatever the order in
+`sites.json`. The *Check: index.html* workflow fails if `index.html` is out of date. Merging to
+`main` publishes it.
+
+`date` is when the site started (or, for a site captured at a precise moment, the date of the
+state it shows): `YYYY`, `YYYY-MM` or `YYYY-MM-DD`, as precise as known. A less precise date comes
+before a more precise one of the same period (`1999` before `1999-09`). The year in a site name
+(OrangeJuice99) is the year it started.
 
 `changes` is a one-line summary of what was changed from the original site so that it works
 today (or "Served as-is..." if nothing was). Take it from the "Changes from the original site"
