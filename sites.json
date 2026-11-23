@@ -55,7 +55,7 @@
   },
   {
     "title": "LTP4, before the party",
-    "date": "2000-08-24",
+    "date": "2000-03",
     "description": "Lucky & Tigrou Party 4, the French demoparty of 25-27 August 2000, as visitors saw its website in the days before: Flash intro and its tune, news, forum, how to come and reserve, car trips, competition rules and machines, sponsors.",
     "changes": "Recovered from the Wayback Machine (captures of August 2000) and rebuilt from classic ASP and SSI into static HTML: forms replaced by a read-only notice, hit counters removed, personal data redacted, menu style restored, images never archived shown as placeholders, Flash intro and its mod tune played with Ruffle and libopenmpt, POST blocked and security headers set at the edge.",
     "url": "https://ltp4.sauthier.family/",
