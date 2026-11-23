@@ -79,5 +79,14 @@
     "url": "https://ltp4-postparty.sauthier.family/",
     "repo": "https://github.com/ChanOJ/LTP4-postparty",
     "image": "shots/ltp5-delayed.jpg"
+  },
+  {
+    "title": "LTP3, during the party",
+    "date": "1999-08-27",
+    "description": "The website that ran during Lucky & Tigrou Party 3, the French demoparty of 1999: news, practical information, planning, network settings, jury, the entries of every compo in order of appearance, the fast compo subjects and the vote page.",
+    "changes": "Rebuilt from static HTML and one classic ASP page: the vote page is now a read-only notice with the compo entry lists, the original frameset is shown in a fixed 800x600 iframe, sans-serif font fallbacks added, registrations, votes and personal data never published, POST blocked and security headers set at the edge.",
+    "url": "https://ltp3-party.sauthier.family/",
+    "repo": "https://github.com/ChanOJ/LTP3-party",
+    "image": "shots/ltp3-party.jpg"
   }
 ]
