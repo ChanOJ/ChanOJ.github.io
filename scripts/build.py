@@ -40,7 +40,8 @@ def card(s):
 
 def render():
     sites = json.loads((ROOT / "sites.json").read_text(encoding="utf-8"))
-    sites.sort(key=lambda s: (s["year"], s["title"].casefold()))
+    # Optional "date" (YYYY-MM-DD) orders entries of the same year; undated ones come first.
+    sites.sort(key=lambda s: (s["year"], s.get("date", ""), s["title"].casefold()))
     page = (ROOT / "index.html").read_text(encoding="utf-8")
     body = "\n".join(card(s) for s in sites)
     new, n = re.subn(
