@@ -1,0 +1,17 @@
+name: "Check: index.html"
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: index.html matches sites.json
+        run: python3 scripts/build.py --check
