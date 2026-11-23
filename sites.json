@@ -43,5 +43,14 @@
     "url": "https://orangejuice98.sauthier.family",
     "repo": "https://github.com/ChanOJ/OrangeJuice98",
     "image": "shots/orangejuice98.jpg"
+  },
+  {
+    "title": "Orange Juice (2000 version)",
+    "year": 2000,
+    "description": "The French-language demoscene magazine in its database era: news and articles, demoparty calendar, groups and people sheets, interviews, picture library, charts, oneliner and 13 switchable skins.",
+    "changes": "Rebuilt from classic ASP and SQL Server into static HTML: forms, votes, logins and admin removed, search rewritten client-side, old ASP links redirected at the edge, e-mail domains and birth years redacted, POST blocked and security headers set at the edge.",
+    "url": "https://orangejuice2k.sauthier.family",
+    "repo": "https://github.com/ChanOJ/OrangeJuice2k",
+    "image": "shots/orangejuice2k.jpg"
   }
 ]
