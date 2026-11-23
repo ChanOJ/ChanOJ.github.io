@@ -41,20 +41,20 @@ fetch("sites.json").then(r => r.json()).then(sites => {
   for (const s of sites) {
     const li = document.createElement("li");
     const h = document.createElement("h2");
-    const a = Object.assign(document.createElement("a"), { href: s.url, textContent: s.title });
+    const a = Object.assign(document.createElement("a"), { href: s.url, textContent: s.title, target: "_blank", rel: "noopener noreferrer" });
     h.append(a);
     const p = Object.assign(document.createElement("p"), { textContent: s.description });
     const m = document.createElement("p");
     m.className = "meta";
     const host = new URL(s.url).host;
-    m.append(host + " · ", Object.assign(document.createElement("a"), { href: s.repo, textContent: "Source on GitHub" }));
+    m.append(host + " · ", Object.assign(document.createElement("a"), { href: s.repo, textContent: "Source on GitHub", target: "_blank", rel: "noopener noreferrer" }));
     const text = document.createElement("div");
     text.className = "text";
     text.append(h, p, m);
     li.append(text);
     if (s.image) {
       const img = Object.assign(document.createElement("img"), { src: s.image, alt: "Screenshot of " + s.title, loading: "lazy", className: "shot" });
-      const link = Object.assign(document.createElement("a"), { href: s.url, tabIndex: -1 });
+      const link = Object.assign(document.createElement("a"), { href: s.url, tabIndex: -1, target: "_blank", rel: "noopener noreferrer" });
       link.append(img);
       li.append(link);
     }
