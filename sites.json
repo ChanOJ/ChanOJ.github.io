@@ -3,7 +3,7 @@
     "title": "BOMB (1998 version)",
     "year": 1998,
     "description": "The official homepage of BOMB, a French demoscene group: news, member memories, incoming projects, demo downloads, pixel art, links and credits.",
-    "changes": "Served as-is from bunny.net; only a custom 404 page was added.",
+    "changes": "Modernised to run today: intro in an iframe instead of a popup, old document.layers scripts rewritten, Java applets run with CheerpJ, SSI include inlined.",
     "url": "https://bomb98.sauthier.family",
     "repo": "https://github.com/ChanOJ/Bomb98",
     "image": "shots/bomb98.jpg"
@@ -21,7 +21,7 @@
     "title": "Made (2000 version)",
     "year": 2000,
     "description": "A personal graphics site: digital art, a gallery of pictures in period formats with downloadable packs, news, an about page and links.",
-    "changes": "Served as-is from bunny.net; no page was changed.",
+    "changes": "Tweaked to run today: site shown in an iframe instead of a popup, entry page split from the framed page, missing banner removed, windows-1252 charset declared.",
     "url": "https://made2k.sauthier.family",
     "repo": "https://github.com/ChanOJ/Made2k",
     "image": "shots/made2k.jpg"
@@ -39,7 +39,7 @@
     "title": "Orange Juice (1998 version)",
     "year": 1998,
     "description": "The French-language demoscene magazine, one year on: news in English and French, demoparty reports and calendar, handles and groups, birthdays, demos, interviews and links.",
-    "changes": "Made fully static and read-only: SSI includes, ASP-style forms and guestbook scripts removed, personal data redacted, POST requests blocked at the edge, security headers and a custom 404 page added.",
+    "changes": "Rebuilt from classic ASP into static HTML: forms, counters and admin pages removed, personal data redacted, font fallbacks added, POST blocked and security headers set at the edge.",
     "url": "https://orangejuice98.sauthier.family",
     "repo": "https://github.com/ChanOJ/OrangeJuice98",
     "image": "shots/orangejuice98.jpg"
