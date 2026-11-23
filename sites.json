@@ -18,13 +18,13 @@
     "image": "shots/hotdir97.jpg"
   },
   {
-    "title": "Made (2000 version)",
-    "year": 2000,
+    "title": "Made (1999 version)",
+    "year": 1999,
     "description": "A personal graphics site: digital art, a gallery of pictures in period formats with downloadable packs, news, an about page and links.",
     "changes": "Tweaked to run today: site shown in an iframe instead of a popup, entry page split from the framed page, missing banner removed, windows-1252 charset declared.",
-    "url": "https://made2k.sauthier.family",
-    "repo": "https://github.com/ChanOJ/Made2k",
-    "image": "shots/made2k.jpg"
+    "url": "https://made99.sauthier.family",
+    "repo": "https://github.com/ChanOJ/Made99",
+    "image": "shots/made99.jpg"
   },
   {
     "title": "Orange Juice (1997 version)",
