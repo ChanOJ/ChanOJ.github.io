@@ -28,7 +28,8 @@ then links to it. Leave it out when no capture resembles the site.
 
 `changes` is a one-line summary of what was changed from the original site so that it works
 today (or "Served as-is..." if nothing was). Take it from the "Changes from the original site"
-section of the site's own README, and update it when that README changes.
+section of the site's own README, and update it when that README changes. `description` and `changes` are capped at 200 characters.
+`build.py` fails on longer texts, so summarise.
 
 Screenshots are 800×600 (4:3, so they stay sharp on retina screens), taken with an 800×600
 viewport on the live site: the home page, the whole fake popup window for sites that have one
