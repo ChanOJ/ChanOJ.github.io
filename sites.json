@@ -312,8 +312,8 @@
     "image": "shots/ltp1-after.jpg"
   },
   {
-    "title": "Chandra (1997)",
-    "date": "1997-01-29",
+    "title": "Chandra (1996)",
+    "date": "1996",
     "description": "A personal PC and demoscene home page: HotDIR (a DOS directory lister) with its release history and downloads, hardware and software picks, modules to download, a page of thoughts in French and the decimals of pi.",
     "changes": "Frameset replaced by a 800 px wide column of iframes, background MIDI played by a small player (and an MP3 rendition of the RealAudio file), counters removed, e-mail addresses masked except the nick's own; external links open in a new tab.",
     "contribution": [
