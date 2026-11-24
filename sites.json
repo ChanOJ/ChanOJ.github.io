@@ -178,5 +178,41 @@
     "url": "https://nectarine.sauthier.family",
     "repo": "https://github.com/ChanOJ/Nectarine",
     "image": "shots/nectarine.jpg"
+  },
+  {
+    "title": ".rIBBON! (1998 version)",
+    "date": "1998-02-22",
+    "description": "The website of .rIBBON!, a French demogroup, as of 22 February 1998: its productions with screenshots and downloads (Nova, Area, Plume, Bubble Toast...), history, greetings, contacts, the LTP party pages and the Sid & Chip compo results.",
+    "changes": "Served as it was, rebuilt as plain static HTML with the original paths kept: mailing-list form frozen, dead links turned into text, e-mail local parts kept with the domain masked, demo archives kept untouched, removal contact on the pages showing e-mail addresses, POST blocked and security headers set at the edge.",
+    "contribution": [
+      "hst"
+    ],
+    "url": "https://ribbon98.sauthier.family/",
+    "repo": "https://github.com/ChanOJ/Ribbon98",
+    "image": "shots/ribbon98.jpg"
+  },
+  {
+    "title": "LTP2, before the party",
+    "date": "1998-02-22",
+    "description": "The page of Lucky & Tigrou Party 2, the French demoparty of 11-13 April 1998, as the .rIBBON! website showed it a few weeks before: place and dates, the three informintros, entrance fee, practical details and bus trips.",
+    "changes": "Served as it was, rebuilt as plain static HTML with the original paths kept: mailing-list form frozen, dead links turned into text, e-mail local parts kept with the domain masked, demo archives kept untouched, removal contact on the pages showing e-mail addresses, POST blocked and security headers set at the edge.",
+    "contribution": [
+      "hst"
+    ],
+    "url": "https://ribbon98.sauthier.family/page/sjava/ltp2.html",
+    "repo": "https://github.com/ChanOJ/Ribbon98",
+    "image": "shots/ltp2-before.jpg"
+  },
+  {
+    "title": "LTP1, after the party",
+    "date": "1997",
+    "description": "What the .rIBBON! website told about Lucky & Tigrou Party, the first edition of the French demoparty: more than 90 entrances, only demomakers, the groups present and the TV report.",
+    "changes": "Served as it was, rebuilt as plain static HTML with the original paths kept: mailing-list form frozen, dead links turned into text, e-mail local parts kept with the domain masked, demo archives kept untouched, removal contact on the pages showing e-mail addresses, POST blocked and security headers set at the edge.",
+    "contribution": [
+      "hst"
+    ],
+    "url": "https://ribbon98.sauthier.family/page/sjava/ltp.html",
+    "repo": "https://github.com/ChanOJ/Ribbon98",
+    "image": "shots/ltp1-after.jpg"
   }
 ]
