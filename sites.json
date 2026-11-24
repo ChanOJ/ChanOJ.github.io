@@ -20,8 +20,7 @@
     "description": "A personal graphics site: digital art, a gallery of pictures in period formats with downloadable packs, news, an about page and links.",
     "changes": "Tweaked to run today: site shown in an iframe instead of a popup, entry page split from the framed page, missing banner removed, windows-1252 charset declared.",
     "contribution": [
-      "cod",
-      "hst"
+      "cod"
     ],
     "original_url": "http://made.planet-d.net/",
     "archive_url": "https://web.archive.org/web/20030401155232/http://made.planet-d.net/",
