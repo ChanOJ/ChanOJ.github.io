@@ -142,5 +142,14 @@
     "url": "https://sceneorg.sauthier.family/its/",
     "repo": "https://github.com/ChanOJ/SceneOrg",
     "image": "shots/its.jpg"
+  },
+  {
+    "title": "LTP4, during the party",
+    "date": "2000-08-25",
+    "description": "Lucky & Tigroo Party 4, the French demoparty of 25-27 August 2000, as seen on the party's own network: news, the oneliner of the whole weekend, the time table of deadlines and compos, bar prices and network settings, the Fast Code rules and the final ranking of every compo.",
+    "changes": "Re-rendered as static HTML from the id3 skin and its database: upload, vote, login and edit forms removed, entry files not archived, login codes, votes and visitor IPs never published, removal contact on every page, POST blocked and security headers set at the edge.",
+    "url": "https://ltp4-party.sauthier.family/",
+    "repo": "https://github.com/ChanOJ/LTP4-party",
+    "image": "shots/ltp4-party.jpg"
   }
 ]
