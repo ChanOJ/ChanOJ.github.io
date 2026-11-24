@@ -4,6 +4,10 @@
     "date": "1998",
     "description": "The official homepage of BOMB, a French demoscene group: news, member memories, incoming projects, demo downloads, pixel art, links and credits.",
     "changes": "Modernised to run today: intro in an iframe instead of a popup, old document.layers scripts rewritten, Java applets run with CheerpJ, SSI include inlined.",
+    "contribution": [
+      "cod",
+      "hst"
+    ],
     "url": "https://bomb98.sauthier.family",
     "repo": "https://github.com/ChanOJ/Bomb98",
     "image": "shots/bomb98.jpg"
@@ -13,6 +17,10 @@
     "date": "1997",
     "description": "The home page of HotDIR, a DOS directory lister that recognises file types, Mac and Atari floppies and more, with release history and downloads.",
     "changes": "Served as-is from bunny.net; no page was changed.",
+    "contribution": [
+      "cod",
+      "gfx"
+    ],
     "url": "https://hotdir97.sauthier.family",
     "repo": "https://github.com/ChanOJ/HotDIR97",
     "image": "shots/hotdir97.jpg"
@@ -22,6 +30,10 @@
     "date": "1999",
     "description": "A personal graphics site: digital art, a gallery of pictures in period formats with downloadable packs, news, an about page and links.",
     "changes": "Tweaked to run today: site shown in an iframe instead of a popup, entry page split from the framed page, missing banner removed, windows-1252 charset declared.",
+    "contribution": [
+      "cod",
+      "hst"
+    ],
     "url": "https://made99.sauthier.family",
     "repo": "https://github.com/ChanOJ/Made99",
     "image": "shots/made99.jpg"
@@ -31,6 +43,11 @@
     "date": "1997",
     "description": "A French-language online magazine about the demoscene: demoparty reports and calendar, what a demo is, groups and handles, artwork and links.",
     "changes": "Served as-is from bunny.net; no page was changed.",
+    "contribution": [
+      "cod",
+      "gfx",
+      "hst"
+    ],
     "url": "https://orangejuice97.sauthier.family",
     "repo": "https://github.com/ChanOJ/OrangeJuice97",
     "image": "shots/orangejuice97.jpg"
@@ -40,6 +57,11 @@
     "date": "1998-05",
     "description": "The French-language demoscene magazine, one year on: news in English and French, demoparty reports and calendar, handles and groups, birthdays, demos, interviews and links.",
     "changes": "Rebuilt from classic ASP into static HTML: forms, counters and admin pages removed, personal data redacted, font fallbacks added, POST blocked and security headers set at the edge.",
+    "contribution": [
+      "cod",
+      "gfx",
+      "hst"
+    ],
     "url": "https://orangejuice98.sauthier.family",
     "repo": "https://github.com/ChanOJ/OrangeJuice98",
     "image": "shots/orangejuice98.jpg"
@@ -49,6 +71,11 @@
     "date": "1999-09",
     "description": "The French-language demoscene magazine in its database era: news and articles, demoparty calendar, groups and people sheets, interviews, picture library, charts, oneliner and 13 switchable skins.",
     "changes": "Rebuilt from classic ASP and SQL Server into static HTML: forms, votes, logins and admin removed, search rewritten client-side, old ASP links redirected at the edge, e-mail domains and birth years redacted, POST blocked and security headers set at the edge.",
+    "contribution": [
+      "cod",
+      "gfx",
+      "hst"
+    ],
     "url": "https://orangejuice99.sauthier.family",
     "repo": "https://github.com/ChanOJ/OrangeJuice99",
     "image": "shots/orangejuice99.jpg"
@@ -58,6 +85,11 @@
     "date": "2000-11-20",
     "description": "The demoscene magazine at www.ojuice.net, served by its id3 and id3x engines until 2006: news and articles, 25,000 people sheets, groups and links, parties with results and info files, picture library, oneliner, charts and switchable skins.",
     "changes": "Rebuilt from classic ASP, ASP.NET and SQL Server into static HTML by re-rendering the skin templates over the database: forms, logins, banners and counters removed, search rewritten client-side, help popups repaired, old query-string links redirected by an Edge Script, private data redacted, POST blocked and security headers set at the edge.",
+    "contribution": [
+      "cod",
+      "gfx",
+      "hst"
+    ],
     "url": "https://orangejuicev3.sauthier.family",
     "repo": "https://github.com/ChanOJ/OrangeJuiceV3",
     "image": "shots/orangejuicev3.jpg"
@@ -67,6 +99,10 @@
     "date": "2000-03",
     "description": "Lucky & Tigrou Party 4, the French demoparty of 25-27 August 2000, as visitors saw its website in the days before: Flash intro and its tune, news, forum, how to come and reserve, car trips, competition rules and machines, sponsors.",
     "changes": "Recovered from the Wayback Machine (captures of August 2000) and rebuilt from classic ASP and SSI into static HTML: forms replaced by a read-only notice, hit counters removed, personal data redacted, menu style restored, images never archived shown as placeholders, Flash intro and its mod tune played with Ruffle and libopenmpt, POST blocked and security headers set at the edge.",
+    "contribution": [
+      "cod",
+      "hst"
+    ],
     "url": "https://ltp4.sauthier.family/",
     "repo": "https://github.com/ChanOJ/LTP4",
     "image": "shots/ltp4.jpg"
@@ -76,6 +112,10 @@
     "date": "2000-08-31",
     "description": "Lucky & Tigrou Party 4, the French demoparty of 25-27 August 2000, right after the event: final results of every compo, words from the organizers and from the attenders, the traditional financial balance and Skal's fast code compo.",
     "changes": "Rebuilt from classic ASP and SSI into static HTML with the original URLs kept: attenders' forum rendered read-only, hit counters and FTP credentials removed, e-mail domains redacted, a 2026 post-scriptum added to the financial balance, POST blocked and security headers set at the edge.",
+    "contribution": [
+      "cod",
+      "hst"
+    ],
     "url": "https://ltp4-postparty.sauthier.family/index2.html",
     "repo": "https://github.com/ChanOJ/LTP4-postparty",
     "image": "shots/ltp4-postparty.jpg"
@@ -85,6 +125,10 @@
     "date": "2001",
     "description": "The home page of the LTP website in 2001: LTP5 delayed, a wall of LTP4 productions and a long tribute to LTP memories written by sceners.",
     "changes": "Served as it was, except the dead \"LTP party\" link, which now opens the LTP4 results, sans-serif font fallbacks, POST blocked and security headers set at the edge.",
+    "contribution": [
+      "cod",
+      "hst"
+    ],
     "url": "https://ltp4-postparty.sauthier.family/",
     "repo": "https://github.com/ChanOJ/LTP4-postparty",
     "image": "shots/ltp5-delayed.jpg"
@@ -94,6 +138,10 @@
     "date": "1999-08-27",
     "description": "The website that ran during Lucky & Tigrou Party 3, the French demoparty of 1999: news, practical information, planning, network settings, jury, the entries of every compo in order of appearance, the fast compo subjects and the vote page.",
     "changes": "Rebuilt from static HTML and one classic ASP page: the vote page is now a read-only notice with the compo entry lists, the original frameset is shown in a fixed 800x600 iframe, sans-serif font fallbacks added, registrations, votes and personal data never published, POST blocked and security headers set at the edge.",
+    "contribution": [
+      "cod",
+      "hst"
+    ],
     "url": "https://ltp3-party.sauthier.family/",
     "repo": "https://github.com/ChanOJ/LTP3-party",
     "image": "shots/ltp3-party.jpg"
@@ -103,6 +151,10 @@
     "date": "1999-05-30",
     "description": "Lucky & Tigrou Party 3, the French demoparty of 27-29 August 1999, as its website stood in the end: news, general information, competitions, final results and financial balance, how to come, registration, contact and the questions and answers forum.",
     "changes": "Rebuilt from classic ASP and SSI into static HTML with the original URLs kept: forum rendered read-only, car trips and registration lists replaced by an archived notice, phone number and e-mail addresses redacted, POST blocked and security headers set at the edge.",
+    "contribution": [
+      "cod",
+      "hst"
+    ],
     "url": "https://ltp3.sauthier.family/home.shtml",
     "repo": "https://github.com/ChanOJ/LTP3",
     "image": "shots/ltp3.jpg"
@@ -112,6 +164,9 @@
     "date": "1998",
     "description": "The small website that ran the registrations and the votes of Lucky & Tigrou Party 2, a French demoparty of 1998: registration form, list of attendees, compo entries and vote results.",
     "changes": "Rebuilt from four classic ASP pages over flat files into static HTML: forms replaced by a read-only notice, attendee list reduced to handles and groups, compo lists and vote results rendered from the files (only test votes survived), every page shown in a 1021x650 iframe, registrations and personal data never published, POST blocked and security headers set at the edge.",
+    "contribution": [
+      "hst"
+    ],
     "url": "https://ltp2-party.sauthier.family/",
     "repo": "https://github.com/ChanOJ/LTP2-party",
     "image": "shots/ltp2-party.jpg"
@@ -121,6 +176,9 @@
     "date": "2000-09",
     "description": "The home pages of Scene.org, the demoscene's file archive and portal, as a copy ran on the id3 engine in autumn 2000: latest news, services, staff, sponsors, viewing tips, job offers, the FTP search page and the front-page oneliner.",
     "changes": "Rebuilt as static HTML from the id3 skin: forms and the FTP search replaced by an archived notice, the Orange Juice oneliner rendered for 2000-09-01 to 2000-11-19 (nicks only, e-mail addresses cut), removal contact on pages listing people, POST blocked and security headers set at the edge.",
+    "contribution": [
+      "hst"
+    ],
     "url": "https://sceneorg.sauthier.family/",
     "repo": "https://github.com/ChanOJ/SceneOrg",
     "image": "shots/sceneorg.jpg"
@@ -130,6 +188,9 @@
     "date": "2000-08",
     "description": "The pages of Domage, a demogroup (\"we are tired of washing\"), hosted on Scene.org in 2000: news, productions (the Bizarre99 PC demo, Hypnotease, Buena Vista), members and links, in a frameset with a background module.",
     "changes": "Served as-is from the Scene.org copy, apart from dead links shown as plain text; inner pages reopen inside their frameset when landed on directly; POST blocked and security headers set at the edge.",
+    "contribution": [
+      "hst"
+    ],
     "url": "https://sceneorg.sauthier.family/domage/",
     "repo": "https://github.com/ChanOJ/SceneOrg",
     "image": "shots/domage.jpg"
@@ -139,6 +200,9 @@
     "date": "2000-09",
     "description": "Impact Texture Studio (ITS), a DOS/Windows 9x tool to create tileable 256x256 textures, with its information page and online manual, as hosted on Scene.org in 2000.",
     "changes": "Served as-is from the Scene.org copy; the program download (its.exe) is not published, its link is shown as not archived; POST blocked and security headers set at the edge.",
+    "contribution": [
+      "hst"
+    ],
     "url": "https://sceneorg.sauthier.family/its/",
     "repo": "https://github.com/ChanOJ/SceneOrg",
     "image": "shots/its.jpg"
@@ -148,6 +212,10 @@
     "date": "2000-08-25",
     "description": "Lucky & Tigroo Party 4, the French demoparty of 25-27 August 2000, as seen on the party's own network: news, the oneliner of the whole weekend, the time table of deadlines and compos, bar prices and network settings, the Fast Code rules and the final ranking of every compo.",
     "changes": "Re-rendered as static HTML from the id3 skin and its database: upload, vote, login and edit forms removed, entry files not archived, login codes, votes and visitor IPs never published, removal contact on every page, POST blocked and security headers set at the edge.",
+    "contribution": [
+      "cod",
+      "hst"
+    ],
     "url": "https://ltp4-party.sauthier.family/",
     "repo": "https://github.com/ChanOJ/LTP4-party",
     "image": "shots/ltp4-party.jpg"
@@ -157,6 +225,10 @@
     "date": "1998",
     "description": "Citeweb, a French free web host for personal sites run by volunteers from 1996 to 1999: the 1998 framed interface (\"votre espace d'expression sur internet\"), sign-up and hosting rules, contact page and the help pages (FTP, e-mail, newsgroups, IRC services, FAQ).",
     "changes": "Rebuilt as plain static HTML from a capture of the redesign and the help page templates: server includes inlined, member area, forums, search, counters and forms left out, dead links turned into text, e-mail addresses masked, and a short archive note replacing the home page that was captured as a 404.",
+    "contribution": [
+      "cod",
+      "hst"
+    ],
     "url": "https://citeweb98.sauthier.family/",
     "repo": "https://github.com/ChanOJ/Citeweb98",
     "image": "shots/citeweb98.jpg"
@@ -166,6 +238,10 @@
     "date": "1997",
     "description": "Citeweb, a French free web host for personal sites run by volunteers from 1996 to 1999, as it was in 1997 in its beta-test phase: presentation, sign-up and hosting rules, the CITENEWS directory of members' sites by category, the forums page, the WebTrends statistics and the members' directory, plus the sites it hosted at their original paths (DefCoN ezine, .rIBBON!, Citemag, AUTOMAG).",
     "changes": "Rebuilt as plain static HTML from a Teleport Pro capture of the 1997 server: forms, logins, counters and scripts frozen or left out, dead links turned into text, e-mail addresses and phone numbers masked, ages, postcodes and visitor host names removed from the member lists and statistics, removal contact on every page that lists people, Orange Juice linked to its own archive.",
+    "contribution": [
+      "cod",
+      "hst"
+    ],
     "url": "https://citeweb97.sauthier.family/",
     "repo": "https://github.com/ChanOJ/Citeweb97",
     "image": "shots/citeweb97.jpg"
@@ -175,6 +251,9 @@
     "date": "2000-09",
     "description": "Nectarine, the demoscene web radio at www.scenemusic.net and nectarine.ojuice.net, on the id3 engine until 2006: more than 18,000 songs (modules, chiptunes, SID, MP3) requested and rated by the listeners, with votes, comments, party rankings, authors, charts, news and the oneliner.",
     "changes": "Rebuilt from classic ASP and SQL Server into static HTML by re-rendering the skin templates over the databases: the radio shown off the air as it stopped in September 2006, logins, requests, votes, uploads and forms removed, colour themes and search rewritten client-side, old query-string links redirected by an Edge Script, private data redacted, POST blocked and security headers set at the edge.",
+    "contribution": [
+      "hst"
+    ],
     "url": "https://nectarine.sauthier.family",
     "repo": "https://github.com/ChanOJ/Nectarine",
     "image": "shots/nectarine.jpg"

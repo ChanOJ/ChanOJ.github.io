@@ -14,11 +14,15 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parent.parent
 START, END = "<!-- sites:start -->", "<!-- sites:end -->"
 DATE = re.compile(r"\d{4}(-\d{2}(-\d{2})?)?")
+CONTRIBUTION = {"cod": "code", "gfx": "graphics", "hst": "hosting"}
 LINK = 'target="_blank" rel="noopener noreferrer"'
 
 
 def card(s):
     e = html.escape
+    for t in s.get("contribution", []):
+        if t not in CONTRIBUTION:
+            sys.exit(f'{s["title"]}: unknown contribution "{t}"')
     host = urlparse(s["url"]).netloc
     out = [
         "    <li>",
@@ -26,6 +30,7 @@ def card(s):
         f'        <h2><a href="{e(s["url"])}" {LINK}>{e(s["title"])}</a></h2>',
         f'        <p>{e(s["description"])}</p>',
         f'        <p class="changes">{e(s["changes"])}</p>',
+        f'        <p class="contribution">My contribution: {e(", ".join(CONTRIBUTION[t] for t in s["contribution"]))}</p>',
         f'        <p class="meta">{e(host)} · <a href="{e(s["repo"])}" {LINK}>Source on GitHub</a></p>',
         "      </div>",
     ]
