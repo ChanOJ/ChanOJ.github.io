@@ -14,6 +14,8 @@ ROOT = Path(__file__).resolve().parent.parent
 START, END = "<!-- sites:start -->", "<!-- sites:end -->"
 DATE = re.compile(r"\d{4}(-\d{2}(-\d{2})?)?")
 CONTRIBUTION = {"cod": "code", "gfx": "graphics", "hst": "hosting"}
+# Card texts stay capped at 200 characters: longer ones fail the build.
+MAX_DESCRIPTION, MAX_CHANGES = 200, 200
 LINK = 'target="_blank" rel="noopener noreferrer"'
 
 
@@ -29,6 +31,9 @@ def original_line(s, original):
 
 def card(s):
     e = html.escape
+    for field, limit in (("description", MAX_DESCRIPTION), ("changes", MAX_CHANGES)):
+        if len(s[field]) > limit:
+            sys.exit(f'{s["title"]}: "{field}" is {len(s[field])} characters, the limit is {limit}')
     for t in s.get("contribution", []):
         if t not in CONTRIBUTION:
             sys.exit(f'{s["title"]}: unknown contribution "{t}"')
