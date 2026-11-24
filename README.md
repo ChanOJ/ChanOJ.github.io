@@ -5,7 +5,7 @@ served from bunny.net. The page is `index.html`, rendered from [`sites.json`](si
 
 ## Adding a site
 
-Add an entry to `sites.json` (`title`, `date`, `description`, `changes`, `contribution`, `original_url`, `url`, `repo`, `image`) in a
+Add an entry to `sites.json` (`title`, `date`, `description`, `changes`, `contribution`, `original_url`, `archive_url`, `url`, `repo`, `image`) in a
 pull request with a screenshot in `shots/` (800 px wide JPEG), then run
 `python3 scripts/build.py`: it renders the list into `index.html` as static HTML (no JavaScript,
 so search engines and link previews see it), sorted by `date` then `title`, whatever the order in
@@ -22,6 +22,9 @@ before a more precise one of the same period (`1999` before `1999-09`). The year
 
 `original_url` (optional) is the address where the site was originally hosted, shown as "Original address"
 (plain text, the host is dead). Leave it out when unknown.
+`archive_url` (optional) is the latest Wayback Machine capture of that address that still looks like the
+archived site (same page, same era), as `https://web.archive.org/web/<timestamp>/<original>`; the address
+then links to it. Leave it out when no capture resembles the site.
 
 `changes` is a one-line summary of what was changed from the original site so that it works
 today (or "Served as-is..." if nothing was). Take it from the "Changes from the original site"
