@@ -23,9 +23,7 @@ def original_line(s, original):
     e = html.escape
     addr = e(re.sub(r"^https?://", "", s["original_url"]).rstrip("/"))
     if s.get("archive_url"):
-        m = re.search(r"/web/(\d{4})(\d{2})(\d{2})", s["archive_url"])
-        day = "-".join(m.groups())
-        addr = f'<a href="{e(s["archive_url"])}" {LINK}>{addr}</a> (Wayback Machine, {day})'
+        addr = f'<a href="{e(s["archive_url"])}" {LINK}>{addr}</a>'
     return f'        <p class="original">Original address: {addr}</p>'
 
 
