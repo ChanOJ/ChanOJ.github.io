@@ -9,7 +9,6 @@ import json
 import re
 import sys
 from pathlib import Path
-from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
 START, END = "<!-- sites:start -->", "<!-- sites:end -->"
@@ -18,12 +17,22 @@ CONTRIBUTION = {"cod": "code", "gfx": "graphics", "hst": "hosting"}
 LINK = 'target="_blank" rel="noopener noreferrer"'
 
 
+def original_line(s, original):
+    e = html.escape
+    addr = e(re.sub(r"^https?://", "", s["original_url"]).rstrip("/"))
+    if s.get("archive_url"):
+        m = re.search(r"/web/(\d{4})(\d{2})(\d{2})", s["archive_url"])
+        day = "-".join(m.groups())
+        addr = f'<a href="{e(s["archive_url"])}" {LINK}>{addr}</a> (Wayback Machine, {day})'
+    return f'        <p class="original">Original address: {addr}</p>'
+
+
 def card(s):
     e = html.escape
     for t in s.get("contribution", []):
         if t not in CONTRIBUTION:
             sys.exit(f'{s["title"]}: unknown contribution "{t}"')
-    original = urlparse(s["original_url"]) if s.get("original_url") else None
+    original = s.get("original_url")
     out = [
         "    <li>",
         '      <div class="text">',
@@ -31,7 +40,7 @@ def card(s):
         f'        <p>{e(s["description"])}</p>',
         f'        <p class="changes">{e(s["changes"])}</p>',
         f'        <p class="contribution">My contribution: {e(", ".join(CONTRIBUTION[t] for t in s["contribution"]))}</p>',
-        *([f'        <p class="original">Original address: {e(original.netloc + original.path.rstrip("/"))}</p>'] if original else []),
+        *([original_line(s, original)] if original else []),
         f'        <p class="meta"><a href="{e(s["repo"])}" {LINK}>Source on GitHub</a></p>',
         "      </div>",
     ]
