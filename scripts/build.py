@@ -23,6 +23,7 @@ def card(s):
     for t in s.get("contribution", []):
         if t not in CONTRIBUTION:
             sys.exit(f'{s["title"]}: unknown contribution "{t}"')
+    original = urlparse(s["original_url"]) if s.get("original_url") else None
     host = urlparse(s["url"]).netloc
     out = [
         "    <li>",
@@ -31,6 +32,7 @@ def card(s):
         f'        <p>{e(s["description"])}</p>',
         f'        <p class="changes">{e(s["changes"])}</p>',
         f'        <p class="contribution">My contribution: {e(", ".join(CONTRIBUTION[t] for t in s["contribution"]))}</p>',
+        *([f'        <p class="original">Original address: {e(original.netloc + original.path.rstrip("/"))}</p>'] if original else []),
         f'        <p class="meta">{e(host)} · <a href="{e(s["repo"])}" {LINK}>Source on GitHub</a></p>',
         "      </div>",
     ]
