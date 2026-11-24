@@ -115,5 +115,32 @@
     "url": "https://ltp2-party.sauthier.family/",
     "repo": "https://github.com/ChanOJ/LTP2-party",
     "image": "shots/ltp2-party.jpg"
+  },
+  {
+    "title": "Scene.org, 2000 home page",
+    "date": "2000-09",
+    "description": "The home pages of Scene.org, the demoscene's file archive and portal, as a copy ran on the id3 engine in autumn 2000: latest news, services, staff, sponsors, viewing tips, job offers, the FTP search page and the front-page oneliner.",
+    "changes": "Rebuilt as static HTML from the id3 skin: forms and the FTP search replaced by an archived notice, the Orange Juice oneliner rendered for 2000-09-01 to 2000-11-19 (nicks only, e-mail addresses cut), removal contact on pages listing people, POST blocked and security headers set at the edge.",
+    "url": "https://sceneorg.sauthier.family/",
+    "repo": "https://github.com/ChanOJ/SceneOrg",
+    "image": "shots/sceneorg.jpg"
+  },
+  {
+    "title": "Domage, demogroup pages",
+    "date": "2000-08",
+    "description": "The pages of Domage, a demogroup (\"we are tired of washing\"), hosted on Scene.org in 2000: news, productions (the Bizarre99 PC demo, Hypnotease, Buena Vista), members and links, in a frameset with a background module.",
+    "changes": "Served as-is from the Scene.org copy, apart from dead links shown as plain text; inner pages reopen inside their frameset when landed on directly; POST blocked and security headers set at the edge.",
+    "url": "https://sceneorg.sauthier.family/domage/",
+    "repo": "https://github.com/ChanOJ/SceneOrg",
+    "image": "shots/domage.jpg"
+  },
+  {
+    "title": "Impact Texture Studio",
+    "date": "2000-09",
+    "description": "Impact Texture Studio (ITS), a DOS/Windows 9x tool to create tileable 256x256 textures, with its information page and online manual, as hosted on Scene.org in 2000.",
+    "changes": "Served as-is from the Scene.org copy; the program download (its.exe) is not published, its link is shown as not archived; POST blocked and security headers set at the edge.",
+    "url": "https://sceneorg.sauthier.family/its/",
+    "repo": "https://github.com/ChanOJ/SceneOrg",
+    "image": "shots/its.jpg"
   }
 ]
