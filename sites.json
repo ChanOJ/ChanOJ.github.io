@@ -169,5 +169,14 @@
     "url": "https://citeweb97.sauthier.family/",
     "repo": "https://github.com/ChanOJ/Citeweb97",
     "image": "shots/citeweb97.jpg"
+  },
+  {
+    "title": "Nectarine",
+    "date": "2000-09",
+    "description": "Nectarine, the demoscene web radio at www.scenemusic.net and nectarine.ojuice.net, on the id3 engine until 2006: more than 18,000 songs (modules, chiptunes, SID, MP3) requested and rated by the listeners, with votes, comments, party rankings, authors, charts, news and the oneliner.",
+    "changes": "Rebuilt from classic ASP and SQL Server into static HTML by re-rendering the skin templates over the databases: the radio shown off the air as it stopped in September 2006, logins, requests, votes, uploads and forms removed, colour themes and search rewritten client-side, old query-string links redirected by an Edge Script, private data redacted, POST blocked and security headers set at the edge.",
+    "url": "https://nectarine.sauthier.family",
+    "repo": "https://github.com/ChanOJ/Nectarine",
+    "image": "shots/nectarine.jpg"
   }
 ]
