@@ -160,5 +160,14 @@
     "url": "https://citeweb98.sauthier.family/",
     "repo": "https://github.com/ChanOJ/Citeweb98",
     "image": "shots/citeweb98.jpg"
+  },
+  {
+    "title": "Citeweb (1997)",
+    "date": "1997",
+    "description": "Citeweb, a French free web host for personal sites run by volunteers from 1996 to 1999, as it was in 1997 in its beta-test phase: presentation, sign-up and hosting rules, the CITENEWS directory of members' sites by category, the forums page, the WebTrends statistics and the members' directory, plus the sites it hosted at their original paths (DefCoN ezine, .rIBBON!, Citemag, AUTOMAG).",
+    "changes": "Rebuilt as plain static HTML from a Teleport Pro capture of the 1997 server: forms, logins, counters and scripts frozen or left out, dead links turned into text, e-mail addresses and phone numbers masked, ages, postcodes and visitor host names removed from the member lists and statistics, removal contact on every page that lists people, Orange Juice linked to its own archive.",
+    "url": "https://citeweb97.sauthier.family/",
+    "repo": "https://github.com/ChanOJ/Citeweb97",
+    "image": "shots/citeweb97.jpg"
   }
 ]
