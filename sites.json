@@ -8,6 +8,7 @@
       "cod",
       "hst"
     ],
+    "original_url": "http://bomb.planet-d.net/",
     "url": "https://bomb98.sauthier.family",
     "repo": "https://github.com/ChanOJ/Bomb98",
     "image": "shots/bomb98.jpg"
@@ -21,6 +22,7 @@
       "cod",
       "gfx"
     ],
+    "original_url": "http://www.multimania.com/chandra/",
     "url": "https://hotdir97.sauthier.family",
     "repo": "https://github.com/ChanOJ/HotDIR97",
     "image": "shots/hotdir97.jpg"
@@ -34,13 +36,14 @@
       "cod",
       "hst"
     ],
+    "original_url": "http://made.planet-d.net/",
     "url": "https://made99.sauthier.family",
     "repo": "https://github.com/ChanOJ/Made99",
     "image": "shots/made99.jpg"
   },
   {
     "title": "Orange Juice (1997 version)",
-    "date": "1997",
+    "date": "1997-04-05",
     "description": "A French-language online magazine about the demoscene: demoparty reports and calendar, what a demo is, groups and handles, artwork and links.",
     "changes": "Served as-is from bunny.net; no page was changed.",
     "contribution": [
@@ -48,6 +51,7 @@
       "gfx",
       "hst"
     ],
+    "original_url": "http://mygale.org/05/orange/",
     "url": "https://orangejuice97.sauthier.family",
     "repo": "https://github.com/ChanOJ/OrangeJuice97",
     "image": "shots/orangejuice97.jpg"
@@ -62,6 +66,7 @@
       "gfx",
       "hst"
     ],
+    "original_url": "http://ojuice.citeweb.net/",
     "url": "https://orangejuice98.sauthier.family",
     "repo": "https://github.com/ChanOJ/OrangeJuice98",
     "image": "shots/orangejuice98.jpg"
@@ -76,6 +81,7 @@
       "gfx",
       "hst"
     ],
+    "original_url": "http://ojuice.planet-d.net/",
     "url": "https://orangejuice99.sauthier.family",
     "repo": "https://github.com/ChanOJ/OrangeJuice99",
     "image": "shots/orangejuice99.jpg"
@@ -90,6 +96,7 @@
       "gfx",
       "hst"
     ],
+    "original_url": "http://www.ojuice.net/",
     "url": "https://orangejuicev3.sauthier.family",
     "repo": "https://github.com/ChanOJ/OrangeJuiceV3",
     "image": "shots/orangejuicev3.jpg"
@@ -103,6 +110,7 @@
       "cod",
       "hst"
     ],
+    "original_url": "http://ltp.ojuice.net/",
     "url": "https://ltp4.sauthier.family/",
     "repo": "https://github.com/ChanOJ/LTP4",
     "image": "shots/ltp4.jpg"
@@ -116,6 +124,7 @@
       "cod",
       "hst"
     ],
+    "original_url": "http://ltp.ojuice.net/",
     "url": "https://ltp4-postparty.sauthier.family/index2.html",
     "repo": "https://github.com/ChanOJ/LTP4-postparty",
     "image": "shots/ltp4-postparty.jpg"
@@ -129,6 +138,7 @@
       "cod",
       "hst"
     ],
+    "original_url": "http://ltp.ojuice.net/",
     "url": "https://ltp4-postparty.sauthier.family/",
     "repo": "https://github.com/ChanOJ/LTP4-postparty",
     "image": "shots/ltp5-delayed.jpg"
@@ -155,6 +165,7 @@
       "cod",
       "hst"
     ],
+    "original_url": "http://ltp.planet-d.net/",
     "url": "https://ltp3.sauthier.family/home.shtml",
     "repo": "https://github.com/ChanOJ/LTP3",
     "image": "shots/ltp3.jpg"
@@ -179,6 +190,7 @@
     "contribution": [
       "hst"
     ],
+    "original_url": "http://www.scene.org/",
     "url": "https://sceneorg.sauthier.family/",
     "repo": "https://github.com/ChanOJ/SceneOrg",
     "image": "shots/sceneorg.jpg"
@@ -191,6 +203,7 @@
     "contribution": [
       "hst"
     ],
+    "original_url": "http://www.scene.org/domage/",
     "url": "https://sceneorg.sauthier.family/domage/",
     "repo": "https://github.com/ChanOJ/SceneOrg",
     "image": "shots/domage.jpg"
@@ -203,6 +216,7 @@
     "contribution": [
       "hst"
     ],
+    "original_url": "http://www.scene.org/its/",
     "url": "https://sceneorg.sauthier.family/its/",
     "repo": "https://github.com/ChanOJ/SceneOrg",
     "image": "shots/its.jpg"
@@ -216,6 +230,7 @@
       "cod",
       "hst"
     ],
+    "original_url": "http://www.ltp.net/",
     "url": "https://ltp4-party.sauthier.family/",
     "repo": "https://github.com/ChanOJ/LTP4-party",
     "image": "shots/ltp4-party.jpg"
@@ -229,19 +244,21 @@
       "cod",
       "hst"
     ],
+    "original_url": "http://www.citeweb.net/",
     "url": "https://citeweb98.sauthier.family/",
     "repo": "https://github.com/ChanOJ/Citeweb98",
     "image": "shots/citeweb98.jpg"
   },
   {
     "title": "Citeweb (1997)",
-    "date": "1997",
+    "date": "1997-07",
     "description": "Citeweb, a French free web host for personal sites run by volunteers from 1996 to 1999, as it was in 1997 in its beta-test phase: presentation, sign-up and hosting rules, the CITENEWS directory of members' sites by category, the forums page, the WebTrends statistics and the members' directory, plus the sites it hosted at their original paths (DefCoN ezine, .rIBBON!, Citemag, AUTOMAG).",
     "changes": "Rebuilt as plain static HTML from a Teleport Pro capture of the 1997 server: forms, logins, counters and scripts frozen or left out, dead links turned into text, e-mail addresses and phone numbers masked, ages, postcodes and visitor host names removed from the member lists and statistics, removal contact on every page that lists people, Orange Juice linked to its own archive.",
     "contribution": [
       "cod",
       "hst"
     ],
+    "original_url": "http://www.citeweb.net/",
     "url": "https://citeweb97.sauthier.family/",
     "repo": "https://github.com/ChanOJ/Citeweb97",
     "image": "shots/citeweb97.jpg"
@@ -254,6 +271,7 @@
     "contribution": [
       "hst"
     ],
+    "original_url": "http://nectarine.ojuice.net/",
     "url": "https://nectarine.sauthier.family",
     "repo": "https://github.com/ChanOJ/Nectarine",
     "image": "shots/nectarine.jpg"
