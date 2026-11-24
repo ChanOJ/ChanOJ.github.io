@@ -15,20 +15,6 @@
     "image": "shots/bomb98.jpg"
   },
   {
-    "title": "HotDIR (1997 version)",
-    "date": "1997",
-    "description": "The home page of HotDIR, a DOS directory lister that recognises file types, Mac and Atari floppies and more, with release history and downloads.",
-    "changes": "Served as-is from bunny.net; no page was changed.",
-    "contribution": [
-      "cod",
-      "gfx"
-    ],
-    "original_url": "http://mygale.org/??/chandra/",
-    "url": "https://hotdir97.sauthier.family",
-    "repo": "https://github.com/ChanOJ/HotDIR97",
-    "image": "shots/hotdir97.jpg"
-  },
-  {
     "title": "Made (1999 version)",
     "date": "1999",
     "description": "A personal graphics site: digital art, a gallery of pictures in period formats with downloadable packs, news, an about page and links.",
