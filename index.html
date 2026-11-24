@@ -21,19 +21,18 @@
   }
   * { box-sizing: border-box; }
   body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.5 system-ui, sans-serif; }
-  main { max-width:44rem; margin:0 auto; padding:3rem 1rem; }
+  main { max-width:96rem; margin:0 auto; padding:3rem 1rem; }
   h1 { margin:0 0 .25rem; font-size:2rem; }
   .lead { color:var(--muted); margin:0 0 2rem; }
-  ul { list-style:none; margin:0; padding:0; display:grid; gap:1rem; }
-  li { background:var(--card); border:1px solid var(--line); border-radius:.75rem; padding:1.25rem; display:flex; gap:1.25rem; align-items:flex-start; }
+  ul { list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(auto-fill, minmax(min(100%, 22rem), 1fr)); gap:1rem; }
+  li { background:var(--card); border:1px solid var(--line); border-radius:.75rem; padding:1.25rem; display:flex; flex-direction:column-reverse; gap:1rem; justify-content:flex-end; }
   .text { flex:1; min-width:0; }
-  .shot { flex:none; width:10rem; height:auto; border:1px solid var(--line); border-radius:.4rem; display:block; }
-  @media (max-width:32rem) { li { flex-direction:column-reverse; } .shot { width:100%; } }
+  .shot { width:100%; height:auto; border:1px solid var(--line); border-radius:.4rem; display:block; }
   h2 { margin:0; font-size:1.25rem; }
   h2 a { color:var(--accent); text-decoration:none; }
   h2 a:hover, h2 a:focus-visible { text-decoration:underline; }
   p { margin:.5rem 0 0; }
-  .meta, .changes { color:var(--muted); font-size:.9rem; }
+  .meta, .changes, .contribution { color:var(--muted); font-size:.9rem; }
   .meta a { color:inherit; }
 </style>
 </head>
@@ -48,6 +47,7 @@
         <h2><a href="https://citeweb97.sauthier.family/" target="_blank" rel="noopener noreferrer">Citeweb (1997)</a></h2>
         <p>Citeweb, a French free web host for personal sites run by volunteers from 1996 to 1999, as it was in 1997 in its beta-test phase: presentation, sign-up and hosting rules, the CITENEWS directory of members&#x27; sites by category, the forums page, the WebTrends statistics and the members&#x27; directory, plus the sites it hosted at their original paths (DefCoN ezine, .rIBBON!, Citemag, AUTOMAG).</p>
         <p class="changes">Rebuilt as plain static HTML from a Teleport Pro capture of the 1997 server: forms, logins, counters and scripts frozen or left out, dead links turned into text, e-mail addresses and phone numbers masked, ages, postcodes and visitor host names removed from the member lists and statistics, removal contact on every page that lists people, Orange Juice linked to its own archive.</p>
+        <p class="contribution">My contribution: code, hosting</p>
         <p class="meta">citeweb97.sauthier.family · <a href="https://github.com/ChanOJ/Citeweb97" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://citeweb97.sauthier.family/" tabindex="-1" target="_blank" rel="noopener noreferrer">
@@ -59,6 +59,7 @@
         <h2><a href="https://hotdir97.sauthier.family" target="_blank" rel="noopener noreferrer">HotDIR (1997 version)</a></h2>
         <p>The home page of HotDIR, a DOS directory lister that recognises file types, Mac and Atari floppies and more, with release history and downloads.</p>
         <p class="changes">Served as-is from bunny.net; no page was changed.</p>
+        <p class="contribution">My contribution: code, graphics</p>
         <p class="meta">hotdir97.sauthier.family · <a href="https://github.com/ChanOJ/HotDIR97" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://hotdir97.sauthier.family" tabindex="-1" target="_blank" rel="noopener noreferrer">
@@ -70,6 +71,7 @@
         <h2><a href="https://ribbon98.sauthier.family/page/sjava/ltp.html" target="_blank" rel="noopener noreferrer">LTP1, after the party</a></h2>
         <p>What the .rIBBON! website told about Lucky &amp; Tigrou Party, the first edition of the French demoparty: more than 90 entrances, only demomakers, the groups present and the TV report.</p>
         <p class="changes">Served as it was, rebuilt as plain static HTML with the original paths kept: mailing-list form frozen, dead links turned into text, e-mail local parts kept with the domain masked, demo archives kept untouched, removal contact on the pages showing e-mail addresses, POST blocked and security headers set at the edge.</p>
+        <p class="contribution">My contribution: hosting</p>
         <p class="meta">ribbon98.sauthier.family · <a href="https://github.com/ChanOJ/Ribbon98" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://ribbon98.sauthier.family/page/sjava/ltp.html" tabindex="-1" target="_blank" rel="noopener noreferrer">
@@ -81,6 +83,7 @@
         <h2><a href="https://orangejuice97.sauthier.family" target="_blank" rel="noopener noreferrer">Orange Juice (1997 version)</a></h2>
         <p>A French-language online magazine about the demoscene: demoparty reports and calendar, what a demo is, groups and handles, artwork and links.</p>
         <p class="changes">Served as-is from bunny.net; no page was changed.</p>
+        <p class="contribution">My contribution: code, graphics, hosting</p>
         <p class="meta">orangejuice97.sauthier.family · <a href="https://github.com/ChanOJ/OrangeJuice97" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://orangejuice97.sauthier.family" tabindex="-1" target="_blank" rel="noopener noreferrer">
@@ -92,6 +95,7 @@
         <h2><a href="https://bomb98.sauthier.family" target="_blank" rel="noopener noreferrer">BOMB (1998 version)</a></h2>
         <p>The official homepage of BOMB, a French demoscene group: news, member memories, incoming projects, demo downloads, pixel art, links and credits.</p>
         <p class="changes">Modernised to run today: intro in an iframe instead of a popup, old document.layers scripts rewritten, Java applets run with CheerpJ, SSI include inlined.</p>
+        <p class="contribution">My contribution: code, hosting</p>
         <p class="meta">bomb98.sauthier.family · <a href="https://github.com/ChanOJ/Bomb98" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://bomb98.sauthier.family" tabindex="-1" target="_blank" rel="noopener noreferrer">
@@ -103,6 +107,7 @@
         <h2><a href="https://citeweb98.sauthier.family/" target="_blank" rel="noopener noreferrer">Citeweb (1998 redesign)</a></h2>
         <p>Citeweb, a French free web host for personal sites run by volunteers from 1996 to 1999: the 1998 framed interface (&quot;votre espace d&#x27;expression sur internet&quot;), sign-up and hosting rules, contact page and the help pages (FTP, e-mail, newsgroups, IRC services, FAQ).</p>
         <p class="changes">Rebuilt as plain static HTML from a capture of the redesign and the help page templates: server includes inlined, member area, forums, search, counters and forms left out, dead links turned into text, e-mail addresses masked, and a short archive note replacing the home page that was captured as a 404.</p>
+        <p class="contribution">My contribution: code, hosting</p>
         <p class="meta">citeweb98.sauthier.family · <a href="https://github.com/ChanOJ/Citeweb98" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://citeweb98.sauthier.family/" tabindex="-1" target="_blank" rel="noopener noreferrer">
@@ -114,6 +119,7 @@
         <h2><a href="https://ltp2-party.sauthier.family/" target="_blank" rel="noopener noreferrer">LTP2, the event pages</a></h2>
         <p>The small website that ran the registrations and the votes of Lucky &amp; Tigrou Party 2, a French demoparty of 1998: registration form, list of attendees, compo entries and vote results.</p>
         <p class="changes">Rebuilt from four classic ASP pages over flat files into static HTML: forms replaced by a read-only notice, attendee list reduced to handles and groups, compo lists and vote results rendered from the files (only test votes survived), every page shown in a 1021x650 iframe, registrations and personal data never published, POST blocked and security headers set at the edge.</p>
+        <p class="contribution">My contribution: hosting</p>
         <p class="meta">ltp2-party.sauthier.family · <a href="https://github.com/ChanOJ/LTP2-party" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://ltp2-party.sauthier.family/" tabindex="-1" target="_blank" rel="noopener noreferrer">
@@ -125,6 +131,7 @@
         <h2><a href="https://ribbon98.sauthier.family/" target="_blank" rel="noopener noreferrer">.rIBBON! (1998 version)</a></h2>
         <p>The website of .rIBBON!, a French demogroup, as of 22 February 1998: its productions with screenshots and downloads (Nova, Area, Plume, Bubble Toast...), history, greetings, contacts, the LTP party pages and the Sid &amp; Chip compo results.</p>
         <p class="changes">Served as it was, rebuilt as plain static HTML with the original paths kept: mailing-list form frozen, dead links turned into text, e-mail local parts kept with the domain masked, demo archives kept untouched, removal contact on the pages showing e-mail addresses, POST blocked and security headers set at the edge.</p>
+        <p class="contribution">My contribution: hosting</p>
         <p class="meta">ribbon98.sauthier.family · <a href="https://github.com/ChanOJ/Ribbon98" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://ribbon98.sauthier.family/" tabindex="-1" target="_blank" rel="noopener noreferrer">
@@ -136,6 +143,7 @@
         <h2><a href="https://ribbon98.sauthier.family/page/sjava/ltp2.html" target="_blank" rel="noopener noreferrer">LTP2, before the party</a></h2>
         <p>The page of Lucky &amp; Tigrou Party 2, the French demoparty of 11-13 April 1998, as the .rIBBON! website showed it a few weeks before: place and dates, the three informintros, entrance fee, practical details and bus trips.</p>
         <p class="changes">Served as it was, rebuilt as plain static HTML with the original paths kept: mailing-list form frozen, dead links turned into text, e-mail local parts kept with the domain masked, demo archives kept untouched, removal contact on the pages showing e-mail addresses, POST blocked and security headers set at the edge.</p>
+        <p class="contribution">My contribution: hosting</p>
         <p class="meta">ribbon98.sauthier.family · <a href="https://github.com/ChanOJ/Ribbon98" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://ribbon98.sauthier.family/page/sjava/ltp2.html" tabindex="-1" target="_blank" rel="noopener noreferrer">
@@ -147,6 +155,7 @@
         <h2><a href="https://orangejuice98.sauthier.family" target="_blank" rel="noopener noreferrer">Orange Juice (1998 version)</a></h2>
         <p>The French-language demoscene magazine, one year on: news in English and French, demoparty reports and calendar, handles and groups, birthdays, demos, interviews and links.</p>
         <p class="changes">Rebuilt from classic ASP into static HTML: forms, counters and admin pages removed, personal data redacted, font fallbacks added, POST blocked and security headers set at the edge.</p>
+        <p class="contribution">My contribution: code, graphics, hosting</p>
         <p class="meta">orangejuice98.sauthier.family · <a href="https://github.com/ChanOJ/OrangeJuice98" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://orangejuice98.sauthier.family" tabindex="-1" target="_blank" rel="noopener noreferrer">
@@ -158,6 +167,7 @@
         <h2><a href="https://made99.sauthier.family" target="_blank" rel="noopener noreferrer">Made (1999 version)</a></h2>
         <p>A personal graphics site: digital art, a gallery of pictures in period formats with downloadable packs, news, an about page and links.</p>
         <p class="changes">Tweaked to run today: site shown in an iframe instead of a popup, entry page split from the framed page, missing banner removed, windows-1252 charset declared.</p>
+        <p class="contribution">My contribution: code, hosting</p>
         <p class="meta">made99.sauthier.family · <a href="https://github.com/ChanOJ/Made99" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://made99.sauthier.family" tabindex="-1" target="_blank" rel="noopener noreferrer">
@@ -169,6 +179,7 @@
         <h2><a href="https://ltp3.sauthier.family/home.shtml" target="_blank" rel="noopener noreferrer">LTP3, Make A Wish !</a></h2>
         <p>Lucky &amp; Tigrou Party 3, the French demoparty of 27-29 August 1999, as its website stood in the end: news, general information, competitions, final results and financial balance, how to come, registration, contact and the questions and answers forum.</p>
         <p class="changes">Rebuilt from classic ASP and SSI into static HTML with the original URLs kept: forum rendered read-only, car trips and registration lists replaced by an archived notice, phone number and e-mail addresses redacted, POST blocked and security headers set at the edge.</p>
+        <p class="contribution">My contribution: code, hosting</p>
         <p class="meta">ltp3.sauthier.family · <a href="https://github.com/ChanOJ/LTP3" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://ltp3.sauthier.family/home.shtml" tabindex="-1" target="_blank" rel="noopener noreferrer">
@@ -180,6 +191,7 @@
         <h2><a href="https://ltp3-party.sauthier.family/" target="_blank" rel="noopener noreferrer">LTP3, during the party</a></h2>
         <p>The website that ran during Lucky &amp; Tigrou Party 3, the French demoparty of 1999: news, practical information, planning, network settings, jury, the entries of every compo in order of appearance, the fast compo subjects and the vote page.</p>
         <p class="changes">Rebuilt from static HTML and one classic ASP page: the vote page is now a read-only notice with the compo entry lists, the original frameset is shown in a fixed 800x600 iframe, sans-serif font fallbacks added, registrations, votes and personal data never published, POST blocked and security headers set at the edge.</p>
+        <p class="contribution">My contribution: code, hosting</p>
         <p class="meta">ltp3-party.sauthier.family · <a href="https://github.com/ChanOJ/LTP3-party" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://ltp3-party.sauthier.family/" tabindex="-1" target="_blank" rel="noopener noreferrer">
@@ -191,6 +203,7 @@
         <h2><a href="https://orangejuice99.sauthier.family" target="_blank" rel="noopener noreferrer">Orange Juice (1999 version)</a></h2>
         <p>The French-language demoscene magazine in its database era: news and articles, demoparty calendar, groups and people sheets, interviews, picture library, charts, oneliner and 13 switchable skins.</p>
         <p class="changes">Rebuilt from classic ASP and SQL Server into static HTML: forms, votes, logins and admin removed, search rewritten client-side, old ASP links redirected at the edge, e-mail domains and birth years redacted, POST blocked and security headers set at the edge.</p>
+        <p class="contribution">My contribution: code, graphics, hosting</p>
         <p class="meta">orangejuice99.sauthier.family · <a href="https://github.com/ChanOJ/OrangeJuice99" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://orangejuice99.sauthier.family" tabindex="-1" target="_blank" rel="noopener noreferrer">
@@ -202,6 +215,7 @@
         <h2><a href="https://ltp4.sauthier.family/" target="_blank" rel="noopener noreferrer">LTP4, before the party</a></h2>
         <p>Lucky &amp; Tigrou Party 4, the French demoparty of 25-27 August 2000, as visitors saw its website in the days before: Flash intro and its tune, news, forum, how to come and reserve, car trips, competition rules and machines, sponsors.</p>
         <p class="changes">Recovered from the Wayback Machine (captures of August 2000) and rebuilt from classic ASP and SSI into static HTML: forms replaced by a read-only notice, hit counters removed, personal data redacted, menu style restored, images never archived shown as placeholders, Flash intro and its mod tune played with Ruffle and libopenmpt, POST blocked and security headers set at the edge.</p>
+        <p class="contribution">My contribution: code, hosting</p>
         <p class="meta">ltp4.sauthier.family · <a href="https://github.com/ChanOJ/LTP4" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://ltp4.sauthier.family/" tabindex="-1" target="_blank" rel="noopener noreferrer">
@@ -213,6 +227,7 @@
         <h2><a href="https://sceneorg.sauthier.family/domage/" target="_blank" rel="noopener noreferrer">Domage, demogroup pages</a></h2>
         <p>The pages of Domage, a demogroup (&quot;we are tired of washing&quot;), hosted on Scene.org in 2000: news, productions (the Bizarre99 PC demo, Hypnotease, Buena Vista), members and links, in a frameset with a background module.</p>
         <p class="changes">Served as-is from the Scene.org copy, apart from dead links shown as plain text; inner pages reopen inside their frameset when landed on directly; POST blocked and security headers set at the edge.</p>
+        <p class="contribution">My contribution: hosting</p>
         <p class="meta">sceneorg.sauthier.family · <a href="https://github.com/ChanOJ/SceneOrg" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://sceneorg.sauthier.family/domage/" tabindex="-1" target="_blank" rel="noopener noreferrer">
@@ -224,6 +239,7 @@
         <h2><a href="https://ltp4-party.sauthier.family/" target="_blank" rel="noopener noreferrer">LTP4, during the party</a></h2>
         <p>Lucky &amp; Tigroo Party 4, the French demoparty of 25-27 August 2000, as seen on the party&#x27;s own network: news, the oneliner of the whole weekend, the time table of deadlines and compos, bar prices and network settings, the Fast Code rules and the final ranking of every compo.</p>
         <p class="changes">Re-rendered as static HTML from the id3 skin and its database: upload, vote, login and edit forms removed, entry files not archived, login codes, votes and visitor IPs never published, removal contact on every page, POST blocked and security headers set at the edge.</p>
+        <p class="contribution">My contribution: code, hosting</p>
         <p class="meta">ltp4-party.sauthier.family · <a href="https://github.com/ChanOJ/LTP4-party" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://ltp4-party.sauthier.family/" tabindex="-1" target="_blank" rel="noopener noreferrer">
@@ -235,6 +251,7 @@
         <h2><a href="https://ltp4-postparty.sauthier.family/index2.html" target="_blank" rel="noopener noreferrer">LTP4, after the party</a></h2>
         <p>Lucky &amp; Tigrou Party 4, the French demoparty of 25-27 August 2000, right after the event: final results of every compo, words from the organizers and from the attenders, the traditional financial balance and Skal&#x27;s fast code compo.</p>
         <p class="changes">Rebuilt from classic ASP and SSI into static HTML with the original URLs kept: attenders&#x27; forum rendered read-only, hit counters and FTP credentials removed, e-mail domains redacted, a 2026 post-scriptum added to the financial balance, POST blocked and security headers set at the edge.</p>
+        <p class="contribution">My contribution: code, hosting</p>
         <p class="meta">ltp4-postparty.sauthier.family · <a href="https://github.com/ChanOJ/LTP4-postparty" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://ltp4-postparty.sauthier.family/index2.html" tabindex="-1" target="_blank" rel="noopener noreferrer">
@@ -246,6 +263,7 @@
         <h2><a href="https://sceneorg.sauthier.family/its/" target="_blank" rel="noopener noreferrer">Impact Texture Studio</a></h2>
         <p>Impact Texture Studio (ITS), a DOS/Windows 9x tool to create tileable 256x256 textures, with its information page and online manual, as hosted on Scene.org in 2000.</p>
         <p class="changes">Served as-is from the Scene.org copy; the program download (its.exe) is not published, its link is shown as not archived; POST blocked and security headers set at the edge.</p>
+        <p class="contribution">My contribution: hosting</p>
         <p class="meta">sceneorg.sauthier.family · <a href="https://github.com/ChanOJ/SceneOrg" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://sceneorg.sauthier.family/its/" tabindex="-1" target="_blank" rel="noopener noreferrer">
@@ -257,6 +275,7 @@
         <h2><a href="https://nectarine.sauthier.family" target="_blank" rel="noopener noreferrer">Nectarine</a></h2>
         <p>Nectarine, the demoscene web radio at www.scenemusic.net and nectarine.ojuice.net, on the id3 engine until 2006: more than 18,000 songs (modules, chiptunes, SID, MP3) requested and rated by the listeners, with votes, comments, party rankings, authors, charts, news and the oneliner.</p>
         <p class="changes">Rebuilt from classic ASP and SQL Server into static HTML by re-rendering the skin templates over the databases: the radio shown off the air as it stopped in September 2006, logins, requests, votes, uploads and forms removed, colour themes and search rewritten client-side, old query-string links redirected by an Edge Script, private data redacted, POST blocked and security headers set at the edge.</p>
+        <p class="contribution">My contribution: hosting</p>
         <p class="meta">nectarine.sauthier.family · <a href="https://github.com/ChanOJ/Nectarine" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://nectarine.sauthier.family" tabindex="-1" target="_blank" rel="noopener noreferrer">
@@ -268,6 +287,7 @@
         <h2><a href="https://sceneorg.sauthier.family/" target="_blank" rel="noopener noreferrer">Scene.org, 2000 home page</a></h2>
         <p>The home pages of Scene.org, the demoscene&#x27;s file archive and portal, as a copy ran on the id3 engine in autumn 2000: latest news, services, staff, sponsors, viewing tips, job offers, the FTP search page and the front-page oneliner.</p>
         <p class="changes">Rebuilt as static HTML from the id3 skin: forms and the FTP search replaced by an archived notice, the Orange Juice oneliner rendered for 2000-09-01 to 2000-11-19 (nicks only, e-mail addresses cut), removal contact on pages listing people, POST blocked and security headers set at the edge.</p>
+        <p class="contribution">My contribution: hosting</p>
         <p class="meta">sceneorg.sauthier.family · <a href="https://github.com/ChanOJ/SceneOrg" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://sceneorg.sauthier.family/" tabindex="-1" target="_blank" rel="noopener noreferrer">
@@ -279,6 +299,7 @@
         <h2><a href="https://orangejuicev3.sauthier.family" target="_blank" rel="noopener noreferrer">Orange Juice v3</a></h2>
         <p>The demoscene magazine at www.ojuice.net, served by its id3 and id3x engines until 2006: news and articles, 25,000 people sheets, groups and links, parties with results and info files, picture library, oneliner, charts and switchable skins.</p>
         <p class="changes">Rebuilt from classic ASP, ASP.NET and SQL Server into static HTML by re-rendering the skin templates over the database: forms, logins, banners and counters removed, search rewritten client-side, help popups repaired, old query-string links redirected by an Edge Script, private data redacted, POST blocked and security headers set at the edge.</p>
+        <p class="contribution">My contribution: code, graphics, hosting</p>
         <p class="meta">orangejuicev3.sauthier.family · <a href="https://github.com/ChanOJ/OrangeJuiceV3" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://orangejuicev3.sauthier.family" tabindex="-1" target="_blank" rel="noopener noreferrer">
@@ -290,6 +311,7 @@
         <h2><a href="https://ltp4-postparty.sauthier.family/" target="_blank" rel="noopener noreferrer">LTP5 delayed</a></h2>
         <p>The home page of the LTP website in 2001: LTP5 delayed, a wall of LTP4 productions and a long tribute to LTP memories written by sceners.</p>
         <p class="changes">Served as it was, except the dead &quot;LTP party&quot; link, which now opens the LTP4 results, sans-serif font fallbacks, POST blocked and security headers set at the edge.</p>
+        <p class="contribution">My contribution: code, hosting</p>
         <p class="meta">ltp4-postparty.sauthier.family · <a href="https://github.com/ChanOJ/LTP4-postparty" target="_blank" rel="noopener noreferrer">Source on GitHub</a></p>
       </div>
       <a href="https://ltp4-postparty.sauthier.family/" tabindex="-1" target="_blank" rel="noopener noreferrer">
