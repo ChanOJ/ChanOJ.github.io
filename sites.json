@@ -81,7 +81,6 @@
     "changes": "Rebuilt from classic ASP, ASP.NET and SQL Server into static HTML by re-rendering the skin templates: forms and logins removed, client-side search, old links redirected, private data redacted.",
     "contribution": [
       "cod",
-      "gfx",
       "hst"
     ],
     "original_url": "http://www.ojuice.net/",
