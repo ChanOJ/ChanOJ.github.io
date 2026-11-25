@@ -263,7 +263,7 @@
     "title": "Nectarine",
     "date": "2000-09",
     "description": "Nectarine, the demoscene web radio at www.scenemusic.net, on the id3 engine until 2006: 18,000+ songs requested and rated by listeners, votes, comments, party rankings, charts, news and oneliner.",
-    "changes": "Rebuilt from ASP and SQL Server into static HTML, the radio shown off the air as in September 2006: logins, requests, votes and forms removed, client-side search, old links redirected, data redacted.",
+    "changes": "Rebuilt from ASP and SQL Server into static HTML, the radio shown off the air as in September 2006: logins, requests and forms removed, client-side search, old links redirected, data redacted.",
     "contribution": [
       "hst"
     ],
