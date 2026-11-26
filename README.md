@@ -12,6 +12,13 @@ so search engines and link previews see it), sorted by `date` then `title`, what
 `sites.json`. The *Check: index.html* workflow fails if `index.html` is out of date. Merging to
 `main` publishes it.
 
+A site in a **new repository** also needs a row in the table of
+[`SECURITY.md` in `ChanOJ/.github`](https://github.com/ChanOJ/.github/blob/main/SECURITY.md)
+(written by hand: site links, repository, bug and security report links), in a pull request there,
+and private vulnerability reporting enabled on the new repository (*Settings > Advanced
+Security*) so that its report link works. A new card for a repository already listed only needs its
+link added to that row.
+
 `date` is when the site started (or, for a site captured at a precise moment, the date of the
 state it shows): `YYYY`, `YYYY-MM` or `YYYY-MM-DD`, as precise as known. A less precise date comes
 before a more precise one of the same period (`1999` before `1999-09`). The year in a site name
